@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisconsin Hospital Price Transparency — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states/wisconsin.html" class="active">Wisconsin</a>
+        <a href="/states/minnesota.html" >Minnesota</a>
+        <a href="/states/illinois.html" >Illinois</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Wisconsin: Where ThedaCare Leads and Froedtert Lags</h1>
+    <p class="subtitle">The state with the highest median transparency — and the sharpest system-level contrasts.</p>
+    <p class="dateline">31 hospitals analyzed · March 2026</p>
+  </section>
+
+  <main class="content">
+    <div id="state-metrics" class="metric-strip"></div>
+
+    <div class="content-narrow">
+      <p>ThedaCare achieves 100% transparency at all 9 facilities. Froedtert Hospital — Milwaukee's flagship — discloses rates for only 6 payers. UW Health discloses 112 payer contracts but remains on the outdated v2.0.0 schema.</p>
+    </div>
+
+    <h2>Key Findings</h2>
+    <ol class="findings-list">
+      <li><strong>ThedaCare</strong> is the transparency gold standard: 100% payer rate disclosure at all 9 facilities, up to 59 payers, current v3.0.0 schema, updated March 2026.</li>
+      <li><strong>Froedtert Hospital</strong> — Milwaukee's largest, Level I Trauma Center — discloses rates for only 6 payers. A 25-bed critical access hospital in rural Boscobel (Gundersen) discloses more.</li>
+      <li><strong>UW Health</strong> discloses the most payer contracts in the state (112) using percentage-of-gross methodology, but its file is stale (January 2025) and still on v2.0.0 — at risk for CMS enforcement beginning April 2026.</li>
+      <li><strong>Ascension's three Wisconsin facilities</strong> are the least transparent (27–38%), consistent with national reporting on Ascension's disclosure approach.</li>
+      <li><strong>Marshfield's 5% cash discount</strong> is effectively no discount — a patient saves $50 on a $1,000 procedure. The lowest meaningful discount in the state.</li>
+      <li><strong>Gundersen's intra-system cash discount variance</strong> spans 21% to 62% across seven facilities — evidence of facility-level pricing autonomy.</li>
+    </ol>
+
+    <h2>Hospital Transparency Scorecard</h2>
+
+    <div class="filter-bar">
+      <div>
+        <label for="filter-system">System</label>
+        <select id="filter-system"><option value="all">All Systems</option></select>
+      </div>
+      <div>
+        <label for="filter-tier">Tier</label>
+        <select id="filter-tier">
+          <option value="all">All Tiers</option>
+          <option value="Full">Full (≥80%)</option>
+          <option value="Substantial">Substantial (50–80%)</option>
+          <option value="Partial">Partial (20–50%)</option>
+          <option value="Minimal">Minimal (&lt;20%)</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="hospital-table-container"></div>
+
+    <div class="content-narrow" style="margin-top:2rem;">
+      <h3>About Transparency Tiers</h3>
+      <p>
+        <span class="tier-badge full">Full</span> ≥80% of items have payer-specific negotiated rates.
+        <span class="tier-badge substantial">Substantial</span> 50–80%.
+        <span class="tier-badge partial">Partial</span> 20–50%.
+        <span class="tier-badge minimal">Minimal</span> &lt;20%.
+        Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch · <a href="/">Three-State Overview</a></p>
+    <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>loadStatePage("WI");</script>
+</body>
+</html>

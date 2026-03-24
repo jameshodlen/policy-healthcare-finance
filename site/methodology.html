@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states/wisconsin.html">Wisconsin</a>
+        <a href="/states/minnesota.html">Minnesota</a>
+        <a href="/states/illinois.html">Illinois</a>
+        <a href="/methodology.html" class="active">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="content-narrow">
+
+      <h1 style="font-family:var(--font-display);font-size:2.2rem;margin-bottom:1.5rem;">Methodology</h1>
+
+      <h2>Data Source</h2>
+      <p>All data is extracted from machine-readable files (MRFs) that hospitals are required to publish under the CMS Hospital Price Transparency Rule (45 CFR 180.50). Since January 1, 2024, hospitals must maintain a <code>cms-hpt.txt</code> discovery file at their website root, pointing to downloadable chargemaster files in CMS-standardized JSON or CSV format.</p>
+
+      <h2>Discovery Process</h2>
+      <p>We query the CMS Hospital General Information dataset to identify all registered hospitals in each state. We then fetch <code>cms-hpt.txt</code> from each health system's website, extract MRF download URLs, and download the files with rate limiting (2-second delay between requests). For systems where the TXT file is not at the standard location, we fall back to scraping the hospital's price transparency webpage for direct file links.</p>
+
+      <h2>Transparency Score</h2>
+      <p>The transparency percentage measures <strong>the share of data rows containing a payer-specific negotiated rate</strong>. This includes negotiated dollar amounts, negotiated percentages, and estimated allowed amounts. Rows containing only gross charges, cash prices, or de-identified min/max amounts are not counted as transparent.</p>
+
+      <p>For files in <strong>CSV "tall" format</strong> (v3.0.0), each row represents one item–payer combination. We count rows with a non-zero <code>standard_charge|negotiated_dollar</code> value.</p>
+
+      <p>For files in <strong>CSV "wide" format</strong> (v2.0.0), payer-specific rates are embedded in column headers. We count rows where at least one payer column has a non-zero value.</p>
+
+      <p>For <strong>JSON files</strong>, we count items in <code>standard_charge_information</code> that contain at least one <code>payers_information</code> entry with a negotiated rate.</p>
+
+      <h2>Transparency Tiers</h2>
+      <div class="data-table-wrapper">
+        <table class="data-table">
+          <thead><tr><th>Tier</th><th>Threshold</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr><td><span class="tier-badge full">Full</span></td><td>≥80%</td><td>Most items have payer-specific rates; file is analytically useful for price comparison</td></tr>
+            <tr><td><span class="tier-badge substantial">Substantial</span></td><td>50–80%</td><td>Meaningful disclosure but significant gaps remain</td></tr>
+            <tr><td><span class="tier-badge partial">Partial</span></td><td>20–50%</td><td>Some payer data exists but most items lack negotiated rates</td></tr>
+            <tr><td><span class="tier-badge minimal">Minimal</span></td><td>&lt;20%</td><td>File exists but contains little actionable payer-specific information</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Cash Discount Analysis</h2>
+      <p>We compute the cash discount by comparing the average <code>discounted_cash</code> price to the average <code>gross_charge</code> across a sample of items. A "mechanical" discount means the ratio is consistent — the hospital applies a flat percentage formula. Cash discount coverage measures what percentage of data rows include a cash price at all.</p>
+
+      <h2>Limitations</h2>
+      <p><strong>Coverage.</strong> We analyze files we can access. Some health systems block automated download via TLS configuration, web application firewalls, or robots.txt. SSM Health (Wisconsin/Illinois), Mayo Clinic Health System community hospitals, and CentraCare (Minnesota) were inaccessible during this harvest.</p>
+      <p><strong>Truncation.</strong> Files exceeding 200MB were truncated during download. Profiling metrics are computed from the available data and may undercount total items for very large files.</p>
+      <p><strong>Schema variation.</strong> Hospitals use different CMS schema versions (2.0.0, 2.2.0, 3.0.0) and different file structures (tall, wide, JSON). Our profiler handles all formats but may undercount transparency for unusual structures — as occurred initially with UW Health's wide-format file and UChicago's split structure.</p>
+      <p><strong>Point-in-time.</strong> This analysis reflects files harvested on March 24, 2026. Hospitals update their files periodically — some annually, some more frequently. Rankings may change with each update cycle.</p>
+
+      <h2>Reproducibility</h2>
+      <p>Every metric on this platform is programmatically computed from the published CMS files. The harvest, parsing, and profiling pipeline is documented and deterministic. Hospital inventory data is sourced from the CMS Hospital General Information API. All source URLs are logged in the harvest manifest.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about methodology, data corrections, or research collaboration: <a href="mailto:research@civilledgerlab.org">research@civilledgerlab.org</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch · <a href="/">Three-State Overview</a></p>
+  </footer>
+</body>
+</html>
