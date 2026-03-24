@@ -384,11 +384,20 @@ h3 {
   color: var(--color-muted);
 }
 
+/* ---- STATE GRID (50-state index & landing) ---- */
+.state-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0 3rem;
+}
+
 /* ---- RESPONSIVE ---- */
 @media (max-width: 768px) {
   html { font-size: 15px; }
   .hero h1 { font-size: 2rem; }
   .state-cards { grid-template-columns: 1fr; }
+  .state-grid { grid-template-columns: 1fr 1fr; }
   .site-header .header-inner { flex-direction: column; gap: 0.8rem; }
   .site-nav { gap: 1rem; }
   .metric-strip { grid-template-columns: repeat(2, 1fr); }

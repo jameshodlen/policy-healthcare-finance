@@ -4,6 +4,7 @@
 *.json
 !package.json
 !site/data/*.json
+!scripts/*.json
 *.parquet
 *.db
 *.sqlite

@@ -1,5 +1,32 @@
 /* Healthcare Finance Platform — Interactive Components */
 
+const DATA_URL = '/data/state_data.json';
+
+const STATE_NAMES = {
+  AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',
+  CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',
+  FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',
+  IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',
+  ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',
+  MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',
+  NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',
+  NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',
+  OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',
+  SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',
+  VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'
+};
+
+const REGIONS = {
+  Midwest:['IA','IL','IN','KS','MI','MN','MO','ND','NE','OH','SD','WI'],
+  South:['AL','AR','DC','DE','FL','GA','KY','LA','MD','MS','NC','OK','SC','TN','TX','VA','WV'],
+  Northeast:['CT','MA','ME','NH','NJ','NY','PA','RI','VT'],
+  West:['AK','AZ','CA','CO','HI','ID','MT','NM','NV','OR','UT','WA','WY']
+};
+
+function stateSlug(code) {
+  return (STATE_NAMES[code] || code).toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
+}
+
 const TIER_COLORS = {
   Full: '#0e6b3a',
   Substantial: '#1e7a8a',
@@ -118,7 +145,7 @@ function renderHospitalTable(containerId, hospitals, options = {}) {
 /* Load and render a state page */
 async function loadStatePage(state) {
   try {
-    const res = await fetch(`/data/three_state_summary.json`);
+    const res = await fetch(DATA_URL);
     const data = await res.json();
     const stateData = data[state];
     if (!stateData) return;
@@ -180,28 +207,163 @@ function applyFilters() {
   });
 }
 
-/* Load landing page state cards */
+/* Load landing page — dynamic state cards from data */
 async function loadLandingPage() {
   try {
-    const res = await fetch('/data/three_state_summary.json');
+    const res = await fetch(DATA_URL);
     const data = await res.json();
+    const states = Object.keys(data).sort((a, b) =>
+      (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b)
+    );
 
-    for (const [state, label, finding] of [
-      ['WI', 'Wisconsin', 'ThedaCare achieves 100% at all 9 facilities. Froedtert (Milwaukee flagship) discloses only <strong>6 payers</strong>.'],
-      ['MN', 'Minnesota', 'HealthPartners Regions Hospital discloses <strong>6.9%</strong> of payer rates — the lowest non-zero score in 99 hospitals.'],
-      ['IL', 'Illinois', 'UChicago Medical Center discloses payer rates for only <strong>2.9%</strong> of items — DRG bundles only.'],
-    ]) {
-      const d = data[state];
-      if (!d) continue;
-      const card = document.getElementById('card-' + state);
+    // National metrics
+    let totalHospitals = 0, allTransparencies = [];
+    for (const s of states) {
+      totalHospitals += data[s].total_hospitals;
+      allTransparencies.push(data[s].median_transparency);
+    }
+    allTransparencies.sort((a, b) => a - b);
+    const natMedian = allTransparencies.length
+      ? allTransparencies[Math.floor(allTransparencies.length / 2)]
+      : 0;
+
+    const metricEl = document.getElementById('national-metrics');
+    if (metricEl) {
+      metricEl.innerHTML = `
+        <div class="metric-item">
+          <div class="metric-value">${states.length}</div>
+          <div class="metric-label">States Analyzed</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">${totalHospitals}</div>
+          <div class="metric-label">Hospitals Profiled</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">${natMedian}%</div>
+          <div class="metric-label">Median Transparency</div>
+        </div>
+      `;
+    }
+
+    // Populate dynamic state card grid
+    const grid = document.getElementById('state-card-grid');
+    if (grid) {
+      let html = '';
+      for (const s of states) {
+        const d = data[s];
+        const name = STATE_NAMES[s] || s;
+        const sl = stateSlug(s);
+        html += `<a class="state-card" href="/${sl}.html">
+          <div class="state-label">State Profile</div>
+          <div class="state-name">${name}</div>
+          <div class="median-score">${d.median_transparency}%</div>
+          <div class="median-label">Median transparency · ${d.total_hospitals} hospitals</div>
+          <div class="tier-bars">${renderTierBars(d.tiers, d.total_hospitals)}</div>
+        </a>`;
+      }
+      grid.innerHTML = html;
+    }
+
+    // Legacy: populate any hard-coded cards
+    for (const s of states) {
+      const card = document.getElementById('card-' + s);
       if (!card) continue;
-
+      const d = data[s];
       card.querySelector('.median-score').textContent = d.median_transparency + '%';
       card.querySelector('.median-label').textContent = `Median transparency · ${d.total_hospitals} hospitals`;
       card.querySelector('.tier-bars').innerHTML = renderTierBars(d.tiers, d.total_hospitals);
-      card.querySelector('.finding').innerHTML = finding;
     }
   } catch (err) {
     console.error('Failed to load landing data:', err);
+  }
+}
+
+/* Load states index page */
+async function loadStatesIndex() {
+  try {
+    const res = await fetch(DATA_URL);
+    const data = await res.json();
+    const states = Object.keys(data).sort((a, b) =>
+      (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b)
+    );
+
+    // National metrics
+    let totalHospitals = 0, totalFull = 0, totalMinNone = 0;
+    for (const s of states) {
+      const d = data[s];
+      totalHospitals += d.total_hospitals;
+      totalFull += (d.tiers.Full || 0);
+      totalMinNone += (d.tiers.Minimal || 0) + (d.tiers.None || 0);
+    }
+
+    const metricEl = document.getElementById('national-metrics');
+    if (metricEl) {
+      metricEl.innerHTML = `
+        <div class="metric-item">
+          <div class="metric-value">${states.length}</div>
+          <div class="metric-label">States Analyzed</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">${totalHospitals}</div>
+          <div class="metric-label">Hospitals Profiled</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">${totalFull}</div>
+          <div class="metric-label">Full Transparency</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value">${totalMinNone}</div>
+          <div class="metric-label">Minimal / None</div>
+        </div>
+      `;
+    }
+
+    // Build reverse lookup: state -> region
+    const stateRegion = {};
+    for (const [region, codes] of Object.entries(REGIONS)) {
+      for (const c of codes) stateRegion[c] = region;
+    }
+
+    function renderGrid(filter, search) {
+      const grid = document.getElementById('state-grid');
+      if (!grid) return;
+      let html = '';
+      for (const s of states) {
+        const name = STATE_NAMES[s] || s;
+        const region = stateRegion[s] || '';
+        if (filter !== 'all' && region !== filter) continue;
+        if (search && !name.toLowerCase().includes(search.toLowerCase())) continue;
+
+        const d = data[s];
+        const sl = stateSlug(s);
+        html += `<a class="state-card" href="/${sl}.html">
+          <div class="state-label">${region}</div>
+          <div class="state-name">${name}</div>
+          <div class="median-score">${d.median_transparency}%</div>
+          <div class="median-label">Median · ${d.total_hospitals} hospitals</div>
+          <div class="tier-bars">${renderTierBars(d.tiers, d.total_hospitals)}</div>
+        </a>`;
+      }
+      if (!html) html = '<p style="color:var(--color-muted);">No states match your filter.</p>';
+      grid.innerHTML = html;
+    }
+
+    renderGrid('all', '');
+
+    document.getElementById('region-filter')?.addEventListener('change', () => {
+      renderGrid(
+        document.getElementById('region-filter').value,
+        document.getElementById('state-search')?.value || ''
+      );
+    });
+    document.getElementById('state-search')?.addEventListener('input', () => {
+      renderGrid(
+        document.getElementById('region-filter')?.value || 'all',
+        document.getElementById('state-search').value
+      );
+    });
+
+  } catch (err) {
+    console.error('Failed to load states index:', err);
   }
 }

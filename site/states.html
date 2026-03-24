@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All States — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states.html" class="active">All States</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>State-by-State Transparency</h1>
+    <p class="subtitle">Hospital price transparency compliance across the United States.</p>
+    <p class="dateline">Data harvested March 2026 · Civil Ledger Lab</p>
+  </section>
+
+  <main class="content">
+    <div id="national-metrics" class="metric-strip"></div>
+
+    <div class="filter-bar" style="margin-bottom:1.5rem;">
+      <div>
+        <label for="region-filter">Region</label>
+        <select id="region-filter">
+          <option value="all">All Regions</option>
+          <option value="Midwest">Midwest</option>
+          <option value="South">South</option>
+          <option value="Northeast">Northeast</option>
+          <option value="West">West</option>
+        </select>
+      </div>
+      <div>
+        <label for="state-search">Search</label>
+        <input type="text" id="state-search" placeholder="State name...">
+      </div>
+    </div>
+
+    <div id="state-grid" class="state-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch is a research project of <a href="https://ecoassetlab.org">EcoAsset Lab LLC</a>.</p>
+    <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
+  </footer>
+
+  <script src="/main.js"></script>
+  <script>loadStatesIndex();</script>
+</body>
+</html>
