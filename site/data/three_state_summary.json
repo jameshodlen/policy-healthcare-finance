@@ -1,0 +1,872 @@
+{
+  "WI": {
+    "median_transparency": 72.4,
+    "total_hospitals": 31,
+    "tiers": {
+      "Full": 16,
+      "Substantial": 9,
+      "Partial": 6,
+      "Minimal": 0,
+      "None": 0
+    },
+    "systems": [
+      "Ascension",
+      "Bellin",
+      "Froedtert",
+      "Gundersen",
+      "Marshfield",
+      "Mile Bluff",
+      "Sauk Prairie",
+      "ThedaCare",
+      "UW Health",
+      "UnityPoint"
+    ],
+    "hospitals": [
+      {
+        "name": "Ascension All Saints Hospital, Inc.",
+        "system": "Ascension",
+        "transparency_pct": 30.2,
+        "tier": "Partial",
+        "payer_count": 33,
+        "cash_discount_pct": 47
+      },
+      {
+        "name": "Columbia St. Mary's Hospital Milwaukee, Inc.",
+        "system": "Ascension",
+        "transparency_pct": 37.9,
+        "tier": "Partial",
+        "payer_count": 32,
+        "cash_discount_pct": 47
+      },
+      {
+        "name": "Ascension SE Wisconsin Hospital, Inc.",
+        "system": "Ascension",
+        "transparency_pct": 27.2,
+        "tier": "Partial",
+        "payer_count": 33,
+        "cash_discount_pct": 47
+      },
+      {
+        "name": "Bellin Health System",
+        "system": "Bellin",
+        "transparency_pct": 90.5,
+        "tier": "Full",
+        "payer_count": 23,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "Bellin Health System",
+        "system": "Bellin",
+        "transparency_pct": 74.5,
+        "tier": "Substantial",
+        "payer_count": 23,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "Holy Family Memorial Inc",
+        "system": "Froedtert",
+        "transparency_pct": 55.3,
+        "tier": "Substantial",
+        "payer_count": 21,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "Froedtert Memorial Lutheran Hospital Inc",
+        "system": "Froedtert",
+        "transparency_pct": 44.7,
+        "tier": "Partial",
+        "payer_count": 6,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "Community Memorial Hospital of Menomonee Falls Inc",
+        "system": "Froedtert",
+        "transparency_pct": 58.8,
+        "tier": "Substantial",
+        "payer_count": 20,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "St Josephs Community Hospital of West Bend Inc",
+        "system": "Froedtert",
+        "transparency_pct": 59.3,
+        "tier": "Substantial",
+        "payer_count": 22,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 87.8,
+        "tier": "Full",
+        "payer_count": 8,
+        "cash_discount_pct": 49
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 68.8,
+        "tier": "Substantial",
+        "payer_count": 30,
+        "cash_discount_pct": 62
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 79.9,
+        "tier": "Substantial",
+        "payer_count": 17,
+        "cash_discount_pct": 49
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 78.5,
+        "tier": "Substantial",
+        "payer_count": 16,
+        "cash_discount_pct": 43
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 72.4,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 21
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 81.5,
+        "tier": "Full",
+        "payer_count": 15,
+        "cash_discount_pct": 42
+      },
+      {
+        "name": "Gundersen Health System",
+        "system": "Gundersen",
+        "transparency_pct": 84.4,
+        "tier": "Full",
+        "payer_count": 14,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Marshfield Medical Center - Eau Claire",
+        "system": "Marshfield",
+        "transparency_pct": 99.9,
+        "tier": "Full",
+        "payer_count": 27,
+        "cash_discount_pct": 5
+      },
+      {
+        "name": "Marshfield Medical Center - Marshfield",
+        "system": "Marshfield",
+        "transparency_pct": 99.9,
+        "tier": "Full",
+        "payer_count": 26,
+        "cash_discount_pct": 5
+      },
+      {
+        "name": "Mile Bluff Medical Center",
+        "system": "Mile Bluff",
+        "transparency_pct": 45,
+        "tier": "Partial",
+        "payer_count": 23,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Sauk Prairie Healthcare",
+        "system": "Sauk Prairie",
+        "transparency_pct": 49.7,
+        "tier": "Partial",
+        "payer_count": 7,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "ThedaCare Regional Medical Center-Appleton",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 59,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Medical Center-Berlin",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 42,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Regional Medical Center-Fond Du Lac",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 59,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Regional Medical Center-Neenah",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 25,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Medical Center-New London",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 24,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "Thedacare Regional Medical Center-Oshkosh",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 59,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Medical Center-Shawano",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 26,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Medical Center-Waupaca",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 24,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "ThedaCare Medical Center-Wild Rose",
+        "system": "ThedaCare",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 28,
+        "cash_discount_pct": 44
+      },
+      {
+        "name": "University of Wisconsin Hospital and Clinics Authority",
+        "system": "UW Health",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 112,
+        "cash_discount_pct": 39
+      },
+      {
+        "name": "Meriter Hospital, Inc",
+        "system": "UnityPoint",
+        "transparency_pct": 67.3,
+        "tier": "Substantial",
+        "payer_count": 13,
+        "cash_discount_pct": 20
+      }
+    ]
+  },
+  "MN": {
+    "median_transparency": 74.8,
+    "total_hospitals": 31,
+    "tiers": {
+      "Full": 12,
+      "Substantial": 12,
+      "Partial": 3,
+      "Minimal": 4,
+      "None": 0
+    },
+    "systems": [
+      "Allina",
+      "CentraCare",
+      "Children's Minnesota",
+      "Essentia",
+      "Gillette",
+      "HealthEast",
+      "HealthPartners",
+      "Hennepin Healthcare",
+      "M Health Fairview",
+      "Mayo Clinic",
+      "North Memorial",
+      "Olmsted",
+      "Ridgeview",
+      "Sanford"
+    ],
+    "hospitals": [
+      {
+        "name": "HealthPartners Regions Hospital",
+        "system": "HealthPartners",
+        "transparency_pct": 6.9,
+        "tier": "Minimal",
+        "payer_count": 45,
+        "cash_discount_pct": 75
+      },
+      {
+        "name": "HealthPartners Methodist Hospital",
+        "system": "HealthPartners",
+        "transparency_pct": 9.3,
+        "tier": "Minimal",
+        "payer_count": 42,
+        "cash_discount_pct": 68
+      },
+      {
+        "name": "HealthPartners Park Nicollet Methodist Hospital",
+        "system": "HealthPartners",
+        "transparency_pct": 9.1,
+        "tier": "Minimal",
+        "payer_count": 40,
+        "cash_discount_pct": 65
+      },
+      {
+        "name": "HealthPartners Woodwinds Health Campus",
+        "system": "HealthPartners",
+        "transparency_pct": 11.2,
+        "tier": "Minimal",
+        "payer_count": 38,
+        "cash_discount_pct": 53
+      },
+      {
+        "name": "CentraCare St. Cloud Hospital",
+        "system": "CentraCare",
+        "transparency_pct": 38.5,
+        "tier": "Partial",
+        "payer_count": 19,
+        "cash_discount_pct": 28
+      },
+      {
+        "name": "Gillette Children's Specialty Healthcare",
+        "system": "Gillette",
+        "transparency_pct": 42.6,
+        "tier": "Partial",
+        "payer_count": 15,
+        "cash_discount_pct": 33
+      },
+      {
+        "name": "Essentia Health Duluth",
+        "system": "Essentia",
+        "transparency_pct": 48.2,
+        "tier": "Partial",
+        "payer_count": 28,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "Children's Minnesota Minneapolis",
+        "system": "Children's Minnesota",
+        "transparency_pct": 55.1,
+        "tier": "Substantial",
+        "payer_count": 20,
+        "cash_discount_pct": 38
+      },
+      {
+        "name": "North Memorial Health Maple Grove Hospital",
+        "system": "North Memorial",
+        "transparency_pct": 58.9,
+        "tier": "Substantial",
+        "payer_count": 14,
+        "cash_discount_pct": 42
+      },
+      {
+        "name": "North Memorial Health Hospital",
+        "system": "North Memorial",
+        "transparency_pct": 62.4,
+        "tier": "Substantial",
+        "payer_count": 16,
+        "cash_discount_pct": 42
+      },
+      {
+        "name": "Hennepin Healthcare HCMC",
+        "system": "Hennepin Healthcare",
+        "transparency_pct": 65.7,
+        "tier": "Substantial",
+        "payer_count": 22,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Ridgeview Medical Center",
+        "system": "Ridgeview",
+        "transparency_pct": 68.4,
+        "tier": "Substantial",
+        "payer_count": 10,
+        "cash_discount_pct": 36
+      },
+      {
+        "name": "Sanford Thief River Falls Medical Center",
+        "system": "Sanford",
+        "transparency_pct": 70.3,
+        "tier": "Substantial",
+        "payer_count": 15,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Sanford Bemidji Medical Center",
+        "system": "Sanford",
+        "transparency_pct": 72.1,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Olmsted Medical Center Hospital",
+        "system": "Olmsted",
+        "transparency_pct": 73.5,
+        "tier": "Substantial",
+        "payer_count": 12,
+        "cash_discount_pct": 32
+      },
+      {
+        "name": "Essentia Health St. Mary's Medical Center",
+        "system": "Essentia",
+        "transparency_pct": 74.8,
+        "tier": "Substantial",
+        "payer_count": 32,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "M Health Fairview Northland Medical Center",
+        "system": "M Health Fairview",
+        "transparency_pct": 75.3,
+        "tier": "Substantial",
+        "payer_count": 2,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "M Health Fairview Lakes Medical Center",
+        "system": "M Health Fairview",
+        "transparency_pct": 76.8,
+        "tier": "Substantial",
+        "payer_count": 2,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "M Health Fairview Ridges Hospital",
+        "system": "M Health Fairview",
+        "transparency_pct": 78.2,
+        "tier": "Substantial",
+        "payer_count": 3,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "Lakeview Hospital",
+        "system": "HealthEast",
+        "transparency_pct": 80.4,
+        "tier": "Full",
+        "payer_count": 18,
+        "cash_discount_pct": 38
+      },
+      {
+        "name": "M Health Fairview Southdale Hospital",
+        "system": "M Health Fairview",
+        "transparency_pct": 82.1,
+        "tier": "Full",
+        "payer_count": 3,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "Mayo Clinic Health System Mankato",
+        "system": "Mayo Clinic",
+        "transparency_pct": 88.3,
+        "tier": "Full",
+        "payer_count": 42,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "M Health Fairview University of Minnesota Medical Center",
+        "system": "M Health Fairview",
+        "transparency_pct": 89.5,
+        "tier": "Full",
+        "payer_count": 4,
+        "cash_discount_pct": 45
+      },
+      {
+        "name": "Mayo Clinic Hospital Saint Marys",
+        "system": "Mayo Clinic",
+        "transparency_pct": 94.8,
+        "tier": "Full",
+        "payer_count": 85,
+        "cash_discount_pct": 25
+      },
+      {
+        "name": "Mayo Clinic Hospital Rochester",
+        "system": "Mayo Clinic",
+        "transparency_pct": 95.2,
+        "tier": "Full",
+        "payer_count": 1102,
+        "cash_discount_pct": 25
+      },
+      {
+        "name": "Essentia Health St. Joseph's Medical Center",
+        "system": "Essentia",
+        "transparency_pct": 99.6,
+        "tier": "Full",
+        "payer_count": 39,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "Allina Health Unity Hospital",
+        "system": "Allina",
+        "transparency_pct": 99.8,
+        "tier": "Full",
+        "payer_count": 24,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Allina Health Abbott Northwestern Hospital",
+        "system": "Allina",
+        "transparency_pct": 99.9,
+        "tier": "Full",
+        "payer_count": 28,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Allina Health United Hospital",
+        "system": "Allina",
+        "transparency_pct": 99.9,
+        "tier": "Full",
+        "payer_count": 27,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Allina Health Mercy Hospital",
+        "system": "Allina",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 25,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Allina Health Cambridge Medical Center",
+        "system": "Allina",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 22,
+        "cash_discount_pct": 40
+      }
+    ]
+  },
+  "IL": {
+    "median_transparency": 64.1,
+    "total_hospitals": 37,
+    "tiers": {
+      "Full": 15,
+      "Substantial": 16,
+      "Partial": 2,
+      "Minimal": 0,
+      "None": 4
+    },
+    "systems": [
+      "Advocate",
+      "Ascension",
+      "HSHS",
+      "Loyola",
+      "NorthShore",
+      "Northwestern",
+      "OSF",
+      "Rush",
+      "UChicago"
+    ],
+    "hospitals": [
+      {
+        "name": "OSF Healthcare System",
+        "system": "OSF",
+        "transparency_pct": 0,
+        "tier": "None",
+        "payer_count": 70,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "OSF Healthcare System",
+        "system": "OSF",
+        "transparency_pct": 0,
+        "tier": "None",
+        "payer_count": 78,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Ingalls Memorial Hospital",
+        "system": "UChicago",
+        "transparency_pct": 0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "The University of Chicago Medical Center",
+        "system": "UChicago",
+        "transparency_pct": 0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Alexian Brothers Medical Center",
+        "system": "Ascension",
+        "transparency_pct": 32.2,
+        "tier": "Partial",
+        "payer_count": 59,
+        "cash_discount_pct": 67
+      },
+      {
+        "name": "St. Alexius Medical Center",
+        "system": "Ascension",
+        "transparency_pct": 33.3,
+        "tier": "Partial",
+        "payer_count": 58,
+        "cash_discount_pct": 67
+      },
+      {
+        "name": "Gottlieb Memorial Hospital",
+        "system": "Loyola",
+        "transparency_pct": 56.3,
+        "tier": "Substantial",
+        "payer_count": 12,
+        "cash_discount_pct": 81
+      },
+      {
+        "name": "Loyola University Medical Center",
+        "system": "Loyola",
+        "transparency_pct": 59.2,
+        "tier": "Substantial",
+        "payer_count": 10,
+        "cash_discount_pct": 77
+      },
+      {
+        "name": "Advocate Christ Medical Center",
+        "system": "Advocate",
+        "transparency_pct": 60.5,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Childrens Hospital Oak Lawn",
+        "system": "Advocate",
+        "transparency_pct": 60.6,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "MacNeal Hospital",
+        "system": "Loyola",
+        "transparency_pct": 61,
+        "tier": "Substantial",
+        "payer_count": 14,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Advocate Lutheran General Hospital",
+        "system": "Advocate",
+        "transparency_pct": 61.6,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Sherman Hospital",
+        "system": "Advocate",
+        "transparency_pct": 63,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Childrens Hospital Park Ridge",
+        "system": "Advocate",
+        "transparency_pct": 63.3,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Good Samaritan Hospital",
+        "system": "Advocate",
+        "transparency_pct": 63.5,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Illinois Masonic Medical Center",
+        "system": "Advocate",
+        "transparency_pct": 64.1,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Condell Medical Center",
+        "system": "Advocate",
+        "transparency_pct": 64.2,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Advocate Good Shepherd Hospital",
+        "system": "Advocate",
+        "transparency_pct": 64.6,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Presence Chicago Hospitals Network",
+        "system": "Ascension",
+        "transparency_pct": 65.1,
+        "tier": "Substantial",
+        "payer_count": 45,
+        "cash_discount_pct": 67
+      },
+      {
+        "name": "Advocate South Suburban Hospital",
+        "system": "Advocate",
+        "transparency_pct": 65.9,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Alexian Brothers Behavioral Health Hospital",
+        "system": "Ascension",
+        "transparency_pct": 66.7,
+        "tier": "Substantial",
+        "payer_count": 37,
+        "cash_discount_pct": 59
+      },
+      {
+        "name": "Advocate Trinity Hospital",
+        "system": "Advocate",
+        "transparency_pct": 69.6,
+        "tier": "Substantial",
+        "payer_count": 18,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Northwestern Lake Forest Hospital DBA Northwestern Medicine Catherine Gratz Griffin Lake Forest Hospital",
+        "system": "Northwestern",
+        "transparency_pct": 95,
+        "tier": "Full",
+        "payer_count": 21,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Northwestern Medicine Central DuPage Hospital",
+        "system": "Northwestern",
+        "transparency_pct": 95,
+        "tier": "Full",
+        "payer_count": 47,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Northwestern Medicine Delnor Hospital",
+        "system": "Northwestern",
+        "transparency_pct": 95,
+        "tier": "Full",
+        "payer_count": 35,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Northwestern Medicine Kishwaukee Hospital",
+        "system": "Northwestern",
+        "transparency_pct": 95,
+        "tier": "Full",
+        "payer_count": 36,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Northwestern Medicine Valley West Hospital",
+        "system": "Northwestern",
+        "transparency_pct": 95,
+        "tier": "Full",
+        "payer_count": 37,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Northwestern Memorial Hospital (main)",
+        "system": "Northwestern",
+        "transparency_pct": 95,
+        "tier": "Full",
+        "payer_count": 32,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "ST. ELIZABETH'S HOSPITAL",
+        "system": "HSHS",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 33,
+        "cash_discount_pct": 28
+      },
+      {
+        "name": "ST MARY'S HOSPITAL",
+        "system": "HSHS",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 34,
+        "cash_discount_pct": 34
+      },
+      {
+        "name": "ST. MARY'S HOSPITAL DECATUR",
+        "system": "HSHS",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 30,
+        "cash_discount_pct": 28
+      },
+      {
+        "name": "NorthShore University HealthSystems Evanston Hospital",
+        "system": "NorthShore",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 8,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "NorthShore University HealthSystems Glenbrook Hospital",
+        "system": "NorthShore",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 8,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "NorthShore University HealthSystems Skokie Hospital",
+        "system": "NorthShore",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 8,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "RUSH Copley Medical Center",
+        "system": "Rush",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 32,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "Rush Oak Park Hospital",
+        "system": "Rush",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 32,
+        "cash_discount_pct": 50
+      },
+      {
+        "name": "RUSH University Medical Center",
+        "system": "Rush",
+        "transparency_pct": 100,
+        "tier": "Full",
+        "payer_count": 35,
+        "cash_discount_pct": 50
+      }
+    ]
+  }
+}

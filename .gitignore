@@ -3,6 +3,7 @@
 *.xlsx
 *.json
 !package.json
+!site/data/*.json
 *.parquet
 *.db
 *.sqlite
