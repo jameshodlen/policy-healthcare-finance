@@ -868,5 +868,386 @@
         "cash_discount_pct": 50
       }
     ]
+  },
+  "IA": {
+    "median_transparency": 65.4,
+    "total_hospitals": 45,
+    "tiers": {
+      "Full": 17,
+      "Substantial": 14,
+      "Partial": 0,
+      "Minimal": 0,
+      "None": 14
+    },
+    "systems": [
+      "Gundersen",
+      "Iowa Specialty",
+      "MercyOne",
+      "Trinity Health",
+      "UI Health",
+      "UnityPoint Health"
+    ],
+    "hospitals": [
+      {
+        "name": "MercyOne Genesis Davenport Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "MercyOne Genesis Davenport West Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "MercyOne Genesis Silvis Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "MercyOne Genesis Aledo Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "MercyOne Genesis DeWitt Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Trinity Hospitals",
+        "system": "Trinity Health",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Trinity Health Kenmare Hospital",
+        "system": "Trinity Health",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen Lutheran Medical Center",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen Boscobel Area Hospital",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen Moundview Hospital",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen St. Elizabeth's Hospital",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen St. Joseph's Hospital",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen Palmer Lutheran Hospital",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Gundersen Tri-County Hospital",
+        "system": "Gundersen",
+        "transparency_pct": 0.0,
+        "tier": "None",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "UnityPoint Health - Iowa Methodist Medical Center",
+        "system": "UnityPoint Health",
+        "transparency_pct": 51.8,
+        "tier": "Substantial",
+        "payer_count": 8,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Iowa Lutheran Hospital",
+        "system": "UnityPoint Health",
+        "transparency_pct": 52.8,
+        "tier": "Substantial",
+        "payer_count": 8,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Trinity Bettendorf",
+        "system": "UnityPoint Health",
+        "transparency_pct": 54.9,
+        "tier": "Substantial",
+        "payer_count": 10,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Allen Hospital",
+        "system": "UnityPoint Health",
+        "transparency_pct": 56.2,
+        "tier": "Substantial",
+        "payer_count": 11,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - St. Luke's Hospital",
+        "system": "UnityPoint Health",
+        "transparency_pct": 57.0,
+        "tier": "Substantial",
+        "payer_count": 11,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - St. Luke's Regional Medical Center",
+        "system": "UnityPoint Health",
+        "transparency_pct": 58.5,
+        "tier": "Substantial",
+        "payer_count": 12,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Trinity Rock Island/ Moline",
+        "system": "UnityPoint Health",
+        "transparency_pct": 58.7,
+        "tier": "Substantial",
+        "payer_count": 7,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Trinity Regional Medical Center",
+        "system": "UnityPoint Health",
+        "transparency_pct": 64.1,
+        "tier": "Substantial",
+        "payer_count": 10,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Meriter Hospital",
+        "system": "UnityPoint Health",
+        "transparency_pct": 65.4,
+        "tier": "Substantial",
+        "payer_count": 10,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Finley Hospital",
+        "system": "UnityPoint Health",
+        "transparency_pct": 67.1,
+        "tier": "Substantial",
+        "payer_count": 13,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Trinity Muscatine",
+        "system": "UnityPoint Health",
+        "transparency_pct": 67.8,
+        "tier": "Substantial",
+        "payer_count": 13,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Grinnell Regional Medical Center",
+        "system": "UnityPoint Health",
+        "transparency_pct": 71.2,
+        "tier": "Substantial",
+        "payer_count": 12,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Marshalltown",
+        "system": "UnityPoint Health",
+        "transparency_pct": 71.3,
+        "tier": "Substantial",
+        "payer_count": 12,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "UnityPoint Health - Jones Regional Medical Center",
+        "system": "UnityPoint Health",
+        "transparency_pct": 74.7,
+        "tier": "Substantial",
+        "payer_count": 13,
+        "cash_discount_pct": 20
+      },
+      {
+        "name": "MercyOne Newton Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 94.3,
+        "tier": "Full",
+        "payer_count": 755,
+        "cash_discount_pct": 25
+      },
+      {
+        "name": "MercyOne Waterloo Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 94.4,
+        "tier": "Full",
+        "payer_count": 756,
+        "cash_discount_pct": 16
+      },
+      {
+        "name": "MercyOne Cedar Falls Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 94.8,
+        "tier": "Full",
+        "payer_count": 752,
+        "cash_discount_pct": 21
+      },
+      {
+        "name": "MercyOne Dubuque Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 95.8,
+        "tier": "Full",
+        "payer_count": 760,
+        "cash_discount_pct": 36
+      },
+      {
+        "name": "MercyOne Centerville Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 95.8,
+        "tier": "Full",
+        "payer_count": 757,
+        "cash_discount_pct": 9
+      },
+      {
+        "name": "MercyOne Des Moines Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 95.9,
+        "tier": "Full",
+        "payer_count": 759,
+        "cash_discount_pct": 26
+      },
+      {
+        "name": "MercyOne North Iowa Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 96.1,
+        "tier": "Full",
+        "payer_count": 759,
+        "cash_discount_pct": 36
+      },
+      {
+        "name": "MercyOne West Des Moines Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 96.9,
+        "tier": "Full",
+        "payer_count": 756,
+        "cash_discount_pct": -10
+      },
+      {
+        "name": "MercyOne Clinton Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 97.2,
+        "tier": "Full",
+        "payer_count": 758,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "MercyOne New Hampton Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 97.4,
+        "tier": "Full",
+        "payer_count": 756,
+        "cash_discount_pct": 33
+      },
+      {
+        "name": "MercyOne Elkader Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 98.6,
+        "tier": "Full",
+        "payer_count": 755,
+        "cash_discount_pct": 33
+      },
+      {
+        "name": "MercyOne Oelwein Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 99.2,
+        "tier": "Full",
+        "payer_count": 756,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "MercyOne Dyersville Medical Center",
+        "system": "MercyOne",
+        "transparency_pct": 99.5,
+        "tier": "Full",
+        "payer_count": 755,
+        "cash_discount_pct": 32
+      },
+      {
+        "name": "UNIVERSITY OF IOWA HEALTH CARE MEDICAL CENTER DOWNTOWN",
+        "system": "UI Health",
+        "transparency_pct": 99.9,
+        "tier": "Full",
+        "payer_count": 1,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "UNIVERSITY OF IOWA HEALTH CARE MEDICAL CENTER",
+        "system": "UI Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 1,
+        "cash_discount_pct": 30
+      },
+      {
+        "name": "Iowa Specialty Hospital Clarion",
+        "system": "Iowa Specialty",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 12,
+        "cash_discount_pct": 40
+      },
+      {
+        "name": "Iowa Specialty Hospital Belmond",
+        "system": "Iowa Specialty",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 15,
+        "cash_discount_pct": 40
+      }
+    ]
   }
 }

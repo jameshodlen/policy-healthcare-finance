@@ -1,44 +1,58 @@
 {
   "WI": {
     "hero_title": "Wisconsin: Where ThedaCare Leads and Froedtert Lags",
-    "hero_subtitle": "The state with the highest median transparency — and the sharpest system-level contrasts.",
+    "hero_subtitle": "The state with the highest median transparency \u00e2\u20ac\u201d and the sharpest system-level contrasts.",
     "hospital_count": 31,
-    "intro_text": "ThedaCare achieves 100% transparency at all 9 facilities. Froedtert Hospital — Milwaukee's flagship — discloses rates for only 6 payers. UW Health discloses 112 payer contracts but remains on the outdated v2.0.0 schema.",
+    "intro_text": "ThedaCare achieves 100% transparency at all 9 facilities. Froedtert Hospital \u00e2\u20ac\u201d Milwaukee's flagship \u00e2\u20ac\u201d discloses rates for only 6 payers. UW Health discloses 112 payer contracts but remains on the outdated v2.0.0 schema.",
     "findings": [
       "<strong>ThedaCare</strong> is the transparency gold standard: 100% payer rate disclosure at all 9 facilities, up to 59 payers, current v3.0.0 schema, updated March 2026.",
-      "<strong>Froedtert Hospital</strong> — Milwaukee's largest, Level I Trauma Center — discloses rates for only 6 payers. A 25-bed critical access hospital in rural Boscobel (Gundersen) discloses more.",
-      "<strong>UW Health</strong> discloses the most payer contracts in the state (112) using percentage-of-gross methodology, but its file is stale (January 2025) and still on v2.0.0 — at risk for CMS enforcement beginning April 2026.",
-      "<strong>Ascension's three Wisconsin facilities</strong> are the least transparent (27–38%), consistent with national reporting on Ascension's disclosure approach.",
-      "<strong>Marshfield's 5% cash discount</strong> is effectively no discount — a patient saves $50 on a $1,000 procedure. The lowest meaningful discount in the state.",
-      "<strong>Gundersen's intra-system cash discount variance</strong> spans 21% to 62% across seven facilities — evidence of facility-level pricing autonomy."
+      "<strong>Froedtert Hospital</strong> \u00e2\u20ac\u201d Milwaukee's largest, Level I Trauma Center \u00e2\u20ac\u201d discloses rates for only 6 payers. A 25-bed critical access hospital in rural Boscobel (Gundersen) discloses more.",
+      "<strong>UW Health</strong> discloses the most payer contracts in the state (112) using percentage-of-gross methodology, but its file is stale (January 2025) and still on v2.0.0 \u00e2\u20ac\u201d at risk for CMS enforcement beginning April 2026.",
+      "<strong>Ascension's three Wisconsin facilities</strong> are the least transparent (27\u00e2\u20ac\u201c38%), consistent with national reporting on Ascension's disclosure approach.",
+      "<strong>Marshfield's 5% cash discount</strong> is effectively no discount \u00e2\u20ac\u201d a patient saves $50 on a $1,000 procedure. The lowest meaningful discount in the state.",
+      "<strong>Gundersen's intra-system cash discount variance</strong> spans 21% to 62% across seven facilities \u00e2\u20ac\u201d evidence of facility-level pricing autonomy."
     ]
   },
   "MN": {
     "hero_title": "Minnesota: The HealthPartners Contradiction",
     "hero_subtitle": "A consumer-governed nonprofit that hides what insurance actually pays.",
     "hospital_count": 31,
-    "intro_text": "HealthPartners — both an insurer and a hospital system — scores 6.9% at Regions Hospital. They give patients generous cash discounts (53–75% off gross) while hiding what insured patients' carriers actually negotiate.",
+    "intro_text": "HealthPartners \u00e2\u20ac\u201d both an insurer and a hospital system \u00e2\u20ac\u201d scores 6.9% at Regions Hospital. They give patients generous cash discounts (53\u00e2\u20ac\u201c75% off gross) while hiding what insured patients' carriers actually negotiate.",
     "findings": [
-      "<strong>HealthPartners Regions Hospital</strong> — Level I Trauma, 454 beds, consumer-governed nonprofit — discloses payer rates on 6.9% of rows. The lowest non-zero score in the three-state dataset.",
-      "All four HealthPartners facilities score below 12% — the only system in either state <strong>entirely below 20%</strong>. Yet their cash discounts are the highest in Minnesota (53–75%).",
-      "<strong>Mayo Clinic Rochester</strong> discloses rates for 1,102 payer/plan combinations — 10x more than any other hospital in any state. The richest single chargemaster file in the dataset.",
-      "<strong>Allina Health</strong> achieves 99.8–100% across all 5 analyzed facilities — proving full disclosure is operationally feasible for a large multi-hospital system.",
-      "<strong>Essentia Brainerd</strong> (St. Joseph's Medical Center) scores 99.6% with 39 payers — one of the most transparent hospitals in the dataset and the strongest local data anchor.",
-      "<strong>M Health Fairview</strong> shows good percentage transparency (70–90%) but only 2–4 payers per facility — the structure has rates but for very few contracts."
+      "<strong>HealthPartners Regions Hospital</strong> \u00e2\u20ac\u201d Level I Trauma, 454 beds, consumer-governed nonprofit \u00e2\u20ac\u201d discloses payer rates on 6.9% of rows. The lowest non-zero score in the three-state dataset.",
+      "All four HealthPartners facilities score below 12% \u00e2\u20ac\u201d the only system in either state <strong>entirely below 20%</strong>. Yet their cash discounts are the highest in Minnesota (53\u00e2\u20ac\u201c75%).",
+      "<strong>Mayo Clinic Rochester</strong> discloses rates for 1,102 payer/plan combinations \u00e2\u20ac\u201d 10x more than any other hospital in any state. The richest single chargemaster file in the dataset.",
+      "<strong>Allina Health</strong> achieves 99.8\u00e2\u20ac\u201c100% across all 5 analyzed facilities \u00e2\u20ac\u201d proving full disclosure is operationally feasible for a large multi-hospital system.",
+      "<strong>Essentia Brainerd</strong> (St. Joseph's Medical Center) scores 99.6% with 39 payers \u00e2\u20ac\u201d one of the most transparent hospitals in the dataset and the strongest local data anchor.",
+      "<strong>M Health Fairview</strong> shows good percentage transparency (70\u00e2\u20ac\u201c90%) but only 2\u00e2\u20ac\u201c4 payers per facility \u00e2\u20ac\u201d the structure has rates but for very few contracts."
     ]
   },
   "IL": {
     "hero_title": "Illinois: The Academic Divergence",
     "hero_subtitle": "Northwestern and Rush comply fully. UChicago publishes almost nothing.",
     "hospital_count": 37,
-    "intro_text": "Three of Chicago's four academic flagships comply comprehensively. UChicago Medical Center discloses payer rates for only 2.9% of items — exclusively DRG bundles — while individual line items show only list prices.",
+    "intro_text": "Three of Chicago's four academic flagships comply comprehensively. UChicago Medical Center discloses payer rates for only 2.9% of items \u00e2\u20ac\u201d exclusively DRG bundles \u00e2\u20ac\u201d while individual line items show only list prices.",
     "findings": [
       "<strong>UChicago Medical Center</strong> discloses payer rates for 2.9% of items (2,302 of 78,504). Payer data exists only on DRG bundles; 97% of items show only gross charges and cash prices. Strategic selective disclosure.",
-      "<strong>Northwestern Memorial Hospital</strong> achieves ~95% transparency with 32 payers across v3.0.0 JSON — comprehensive disclosure from Chicago's largest hospital.",
-      "<strong>Rush University Medical Center</strong> hits 100% with 35 payers — proving Chicago's academic centers can comply fully.",
-      "<strong>Advocate Health</strong> is remarkably uniform: all 11 facilities cluster at 60–70% with exactly 18 payers and a 50% cash discount. Centralized but incomplete.",
-      "<strong>HSHS's Illinois hospitals</strong> (100%, 30–34 payers) outperform Ascension's Illinois presence (32–67%) — smaller system, better disclosure.",
-      "<strong>Loyola Gottlieb</strong> offers an 81% cash discount — the highest in the three-state dataset — while disclosing only 56% of payer rates."
+      "<strong>Northwestern Memorial Hospital</strong> achieves ~95% transparency with 32 payers across v3.0.0 JSON \u00e2\u20ac\u201d comprehensive disclosure from Chicago's largest hospital.",
+      "<strong>Rush University Medical Center</strong> hits 100% with 35 payers \u00e2\u20ac\u201d proving Chicago's academic centers can comply fully.",
+      "<strong>Advocate Health</strong> is remarkably uniform: all 11 facilities cluster at 60\u00e2\u20ac\u201c70% with exactly 18 payers and a 50% cash discount. Centralized but incomplete.",
+      "<strong>HSHS's Illinois hospitals</strong> (100%, 30\u00e2\u20ac\u201c34 payers) outperform Ascension's Illinois presence (32\u00e2\u20ac\u201c67%) \u00e2\u20ac\u201d smaller system, better disclosure.",
+      "<strong>Loyola Gottlieb</strong> offers an 81% cash discount \u00e2\u20ac\u201d the highest in the three-state dataset \u00e2\u20ac\u201d while disclosing only 56% of payer rates."
+    ]
+  },
+  "IA": {
+    "hero_title": "Iowa: MercyOne Discloses Everything, UnityPoint Holds Back",
+    "hero_subtitle": "Two systems, two transparency philosophies \u2014 and 755 payers that prove full disclosure is possible.",
+    "hospital_count": 45,
+    "intro_text": "MercyOne achieves 94\u201399% transparency across 13 Iowa facilities with 755+ payer contracts each \u2014 the most comprehensive disclosure in the Midwest. UnityPoint Health, Iowa's other major system, clusters at 51\u201375% with a uniform 20% cash discount. The gap is not technical \u2014 it's strategic.",
+    "findings": [
+      "<strong>MercyOne</strong> is Iowa's transparency leader: 13 facilities at 94\u201399.5% transparency, each disclosing rates for 752\u2013760 payers. No other Midwest system comes close to this payer breadth.",
+      "<strong>UnityPoint Health</strong> (14 facilities) clusters in the Substantial tier at 51\u201375% \u2014 all on v3.0.0 schema with a uniform 20% cash discount. Centralized pricing, incomplete disclosure.",
+      "<strong>University of Iowa Health Care</strong> hits 100% across both campuses \u2014 the state's flagship academic center complies fully.",
+      "<strong>Iowa Specialty Hospital</strong> (Clarion + Belmond) both achieve 100% with 12\u201315 payers and a 40% cash discount \u2014 proof that small hospitals can fully comply.",
+      "<strong>MercyOne's cash discount variance</strong> spans 9\u201336% across facilities \u2014 compared to UnityPoint's uniform 20%. MercyOne appears to set pricing at the facility level; UnityPoint centralizes it.",
+      "<strong>14 hospitals scored 0%</strong> \u2014 mostly non-Iowa facilities from national cms-hpt.txt files (Gundersen, Trinity, Genesis) that were incorrectly attributed to Iowa in discovery."
     ]
   }
 }

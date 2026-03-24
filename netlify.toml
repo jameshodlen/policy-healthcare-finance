@@ -28,3 +28,8 @@
   from = "/illinois"
   to = "/illinois.html"
   status = 301
+
+[[redirects]]
+  from = "/iowa"
+  to = "/iowa.html"
+  status = 301
