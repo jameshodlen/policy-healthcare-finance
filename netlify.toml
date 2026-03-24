@@ -1,0 +1,30 @@
+[build]
+  publish = "site"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/wisconsin"
+  to = "/wisconsin.html"
+  status = 301
+
+[[redirects]]
+  from = "/minnesota"
+  to = "/minnesota.html"
+  status = 301
+
+[[redirects]]
+  from = "/illinois"
+  to = "/illinois.html"
+  status = 301

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Finance Watch — Hospital Price Transparency</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/" class="active">Overview</a>
+        <a href="/states/wisconsin.html">Wisconsin</a>
+        <a href="/states/minnesota.html">Minnesota</a>
+        <a href="/states/illinois.html">Illinois</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Who Discloses What Hospitals Actually Charge</h1>
+    <p class="subtitle">A three-state analysis of hospital price transparency compliance — tracing payer-specific rates across 99 hospitals in Wisconsin, Minnesota, and Illinois.</p>
+    <p class="dateline">Data harvested March 24, 2026 · Civil Ledger Lab</p>
+  </section>
+
+  <main class="content">
+
+    <div class="metric-strip">
+      <div class="metric-item">
+        <div class="metric-value">99</div>
+        <div class="metric-label">Hospitals Analyzed</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">~20</div>
+        <div class="metric-label">Health Systems</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">3</div>
+        <div class="metric-label">States</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">2.9%–100%</div>
+        <div class="metric-label">Transparency Range</div>
+      </div>
+    </div>
+
+    <div class="content-narrow">
+      <p>Federal law requires every hospital to publish a machine-readable file listing what it charges every insurer for every service. Most hospitals comply. Some comply fully — disclosing negotiated rates for dozens of payers across thousands of procedures. Others publish files that technically exist but contain almost nothing.</p>
+      <p>This platform profiles every chargemaster file we can access, scoring each hospital on what it actually discloses. The data is public. The contradictions are structural.</p>
+    </div>
+
+    <h2>Three-State Scorecard</h2>
+
+    <div class="state-cards">
+      <a class="state-card" href="/states/wisconsin.html" id="card-WI">
+        <div class="state-label">State Profile</div>
+        <div class="state-name">Wisconsin</div>
+        <div class="median-score">—</div>
+        <div class="median-label">Loading...</div>
+        <div class="tier-bars"></div>
+        <div class="finding"></div>
+      </a>
+      <a class="state-card" href="/states/minnesota.html" id="card-MN">
+        <div class="state-label">State Profile</div>
+        <div class="state-name">Minnesota</div>
+        <div class="median-score">—</div>
+        <div class="median-label">Loading...</div>
+        <div class="tier-bars"></div>
+        <div class="finding"></div>
+      </a>
+      <a class="state-card" href="/states/illinois.html" id="card-IL">
+        <div class="state-label">State Profile</div>
+        <div class="state-name">Illinois</div>
+        <div class="median-score">—</div>
+        <div class="median-label">Loading...</div>
+        <div class="tier-bars"></div>
+        <div class="finding"></div>
+      </a>
+    </div>
+
+    <h2>Anchor Findings</h2>
+
+    <ol class="findings-list">
+      <li><strong>UChicago Medical Center</strong> discloses payer rates for 2.9% of items — exclusively DRG bundles. The other 97% of services show only list prices. It's the least transparent academic medical center in the three-state dataset.</li>
+      <li><strong>HealthPartners Regions Hospital</strong> in St. Paul scores 6.9% — the lowest non-zero transparency in 99 hospitals. As both an insurer and a hospital, its transfer pricing is structurally opaque.</li>
+      <li><strong>Mayo Clinic Rochester</strong> discloses rates for 1,102 payer/plan combinations — ten times more than any other hospital. The file is an analytical gold mine.</li>
+      <li><strong>ThedaCare</strong> achieves 100% transparency at all 9 Wisconsin facilities with up to 59 payers. Full disclosure is not a technical challenge — it's a choice.</li>
+      <li>At <strong>UW Health</strong>, Anthem PPO pays an estimated $4,237 for a brain MRI while Medicare pays $357 — an <strong>11.9:1</strong> commercial-to-Medicare ratio for the same scan at the same hospital.</li>
+      <li>At <strong>Meriter Hospital</strong> in Madison, the same knee replacement (DRG 470) costs Anthem PPO $46,834 but Medicare Advantage pays $14,825 — a <strong>3.2x spread</strong> within one building.</li>
+      <li><strong>Froedtert Hospital</strong> — Milwaukee's flagship Level I Trauma Center — discloses rates for only 6 payers. A 25-bed critical access hospital in rural Boscobel discloses more.</li>
+    </ol>
+
+    <h2>Cross-State Comparison</h2>
+
+    <div class="data-table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Wisconsin</th>
+            <th>Minnesota</th>
+            <th>Illinois</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hospitals analyzed</td><td>31</td><td>31</td><td>37</td>
+          </tr>
+          <tr>
+            <td>Median transparency</td><td>72.4%</td><td>74.8%</td><td>64.1%</td>
+          </tr>
+          <tr>
+            <td>Full tier (≥80%)</td><td>20 (65%)</td><td>12 (39%)</td><td>12 (32%)</td>
+          </tr>
+          <tr>
+            <td>Minimal tier (&lt;20%)</td><td>0</td><td>4 (13%)</td><td>3 (8%)</td>
+          </tr>
+          <tr>
+            <td>Best system</td>
+            <td>ThedaCare (100%)</td>
+            <td>Allina (99.9%)</td>
+            <td>Rush (100%)</td>
+          </tr>
+          <tr>
+            <td>Worst system</td>
+            <td>Ascension (31.8%)</td>
+            <td>HealthPartners (9.1%)</td>
+            <td>UChicago (2.9%)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="content-narrow" style="margin-top:2rem;">
+      <h2>What This Platform Tracks</h2>
+      <p>Every number on this platform is programmatically extracted from the CMS-mandated machine-readable files that hospitals publish on their websites. We download each file, parse its structure, and compute transparency metrics — the percentage of items with payer-specific negotiated rates, the number of payers disclosed, cash discount formulas, and schema compliance.</p>
+      <p>We do not editorialize the data. We trace the money: how much each payer negotiates, how that compares to Medicare, and what the hospital charges a patient who pays cash. The files are public. The patterns are structural. The contradictions speak for themselves.</p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch is a research project of <a href="https://ecoassetlab.org">EcoAsset Lab LLC</a>.</p>
+    <p style="margin-top:0.5rem;">Data sourced from CMS Hospital Price Transparency Machine-Readable Files · March 2026</p>
+    <p style="margin-top:0.3rem;">Contact: research@civilledgerlab.org</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>loadLandingPage();</script>
+</body>
+</html>
