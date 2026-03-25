@@ -1,6 +1,6 @@
 {
   "WI": {
-    "median_transparency": 72.4,
+    "median_transparency": 81.5,
     "total_hospitals": 31,
     "tiers": {
       "Full": 16,
@@ -550,7 +550,7 @@
     ]
   },
   "IL": {
-    "median_transparency": 64.1,
+    "median_transparency": 65.1,
     "total_hospitals": 37,
     "tiers": {
       "Full": 15,
@@ -1514,13 +1514,13 @@
   },
   "MI": {
     "median_transparency": 63.5,
-    "total_hospitals": 56,
+    "total_hospitals": 55,
     "tiers": {
       "Full": 19,
       "Substantial": 11,
       "Partial": 4,
       "Minimal": 1,
-      "None": 21
+      "None": 20
     },
     "systems": [
       "Corewell Health",
@@ -1685,14 +1685,6 @@
       },
       {
         "name": "Trinity Hospitals",
-        "system": "Trinity Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Trinity Health Kenmare Hospital",
         "system": "Trinity Health",
         "transparency_pct": 0.0,
         "tier": "None",

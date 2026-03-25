@@ -72,7 +72,7 @@
   "KS": {
     "hero_title": "Kansas: KU Health Leads, AdventHealth Pollutes the Data",
     "hero_subtitle": "7 Full-tier hospitals buried under 40 misattributed national entries.",
-    "hospital_count": 48,
+    "hospital_count": 11,
     "intro_text": "Kansas has a data quality problem. AdventHealth\u2019s national cms-hpt.txt dumps 38 non-Kansas facilities into our discovery pipeline \u2014 all scoring 0%. Strip those out and Kansas looks better: KU Health System achieves 100% across 5 facilities, and Stormont Vail in Topeka hits 80\u201386%.",
     "findings": [
       "<strong>University of Kansas Health System</strong> achieves 100% transparency at all 5 facilities with 12\u201370 payers and cash discounts of 76\u201380%.",
@@ -86,7 +86,7 @@
   "MI": {
     "hero_title": "Michigan: McLaren\u2019s Perfect Score, Corewell\u2019s Black Box",
     "hero_subtitle": "12 McLaren hospitals at 100%. 19 Corewell hospitals at 0%. Same state, opposite choices.",
-    "hospital_count": 56,
+    "hospital_count": 55,
     "intro_text": "Michigan is the Midwest\u2019s starkest transparency divide. McLaren Health Care achieves 100% at all 12 facilities with 22\u201338 payers and a uniform 50% cash discount. Corewell Health \u2014 Michigan\u2019s largest system (formerly Beaumont/Spectrum) \u2014 registers 0% across all 19 facilities despite listing 14\u201321 payers in their files.",
     "findings": [
       "<strong>McLaren Health Care</strong> achieves 100% transparency at all 12 facilities \u2014 22\u201338 payers, uniform 50% cash discount. The gold standard for Michigan.",
@@ -100,7 +100,7 @@
   "MO": {
     "hero_title": "Missouri: BJC Shines, Mercy Hides, SSM Blocks",
     "hero_subtitle": "Three systems, three disclosure philosophies \u2014 and a polarized landscape.",
-    "hospital_count": 84,
+    "hospital_count": 48,
     "intro_text": "Missouri\u2019s 15.6% median masks a deeply polarized landscape. BJC Healthcare and CoxHealth achieve 100% at their flagship facilities. Mercy \u2014 Missouri\u2019s largest Catholic system \u2014 shows 99% at small Stoddard County clinics but 1\u201316% at its major hospitals. SSM Health returns 0% across all entries.",
     "findings": [
       "<strong>BJC Healthcare</strong> (Barnes-Jewish, St. Louis Children\u2019s) achieves 92\u2013100% across 13 facilities \u2014 comprehensive disclosure from Missouri\u2019s premier academic system.",
@@ -114,7 +114,7 @@
   "ND": {
     "hero_title": "North Dakota: Sanford\u2019s Solid Middle, CHI\u2019s Full Marks",
     "hero_subtitle": "No hospitals below 20% \u2014 the Midwest\u2019s most consistent disclosure state.",
-    "hospital_count": 40,
+    "hospital_count": 38,
     "intro_text": "North Dakota is a transparency success story. Sanford Health \u2014 the state\u2019s dominant system \u2014 clusters at 57\u201383% (Substantial tier) across its network. CHI Health facilities achieve 100%. Only 3 of 40 profiled hospitals scored 0%, and those appear to be non-ND entries from national txt files.",
     "findings": [
       "<strong>Sanford Health</strong> is consistently Substantial: 57\u201383% transparency, 4\u201317 payers, uniform 20% cash discount. Not Full tier, but reliably above 50%.",
