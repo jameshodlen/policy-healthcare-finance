@@ -42,10 +42,10 @@
     ]
   },
   "IA": {
-    "hero_title": "Iowa: MercyOne Discloses Everything, UnityPoint Holds Back",
-    "hero_subtitle": "Two systems, two transparency philosophies \u2014 and 755 payers that prove full disclosure is possible.",
-    "hospital_count": 45,
-    "intro_text": "MercyOne achieves 94\u201399% transparency across 13 Iowa facilities with 755+ payer contracts each \u2014 the most comprehensive disclosure in the Midwest. UnityPoint Health, Iowa's other major system, clusters at 51\u201375% with a uniform 20% cash discount. The gap is not technical \u2014 it's strategic.",
+    "hero_title": "Iowa: MercyOne\u2019s 755 Payers Set the Midwest Standard",
+    "hero_subtitle": "94.4% median \u2014 MercyOne and UnityPoint cover the state with very different approaches.",
+    "hospital_count": 31,
+    "intro_text": "Iowa\u2019s 94.4% median transparency ranks among the highest in the Midwest once non-Iowa entries are cleaned from the data. MercyOne achieves 94\u201399% across 13 facilities with an extraordinary 755+ payer contracts each. UnityPoint clusters at 51\u201375% with a uniform 20% cash discount.",
     "findings": [
       "<strong>MercyOne</strong> is Iowa's transparency leader: 13 facilities at 94\u201399.5% transparency, each disclosing rates for 752\u2013760 payers. No other Midwest system comes close to this payer breadth.",
       "<strong>UnityPoint Health</strong> (14 facilities) clusters in the Substantial tier at 51\u201375% \u2014 all on v3.0.0 schema with a uniform 20% cash discount. Centralized pricing, incomplete disclosure.",
@@ -56,17 +56,17 @@
     ]
   },
   "IN": {
-    "hero_title": "Indiana: Deaconess Discloses, Parkview Goes Dark",
-    "hero_subtitle": "Only 19 of 148 hospitals discoverable \u2014 a state-wide transparency gap.",
-    "hospital_count": 19,
-    "intro_text": "Indiana\u2019s chargemaster landscape is sparse. Parkview Health \u2014 Fort Wayne\u2019s dominant system \u2014 publishes files our profiler cannot parse (0% across 10 facilities). Deaconess in Evansville is the bright spot, clustering at 54\u201374% with generous cash discounts of 41\u201370%.",
+    "hero_title": "Indiana: IU Health\u2019s Perfect Score Transforms the State",
+    "hero_subtitle": "16 IU Health facilities at 100%. Parkview\u2019s 10 facilities at 1\u20134%. Two Indianas.",
+    "hospital_count": 31,
+    "intro_text": "IU Health \u2014 Indiana\u2019s largest system \u2014 achieves 100% transparency at all 16 facilities with 20\u201329 payers and cash discounts of 53\u201379%. Parkview Health in Fort Wayne scores 0.5\u20134.4% across 10 facilities \u2014 files are JSON disguised as CSV, and what parses contains almost no negotiated rates.",
     "findings": [
-      "<strong>Parkview Health</strong> (10 facilities) returns 0% transparency across the board \u2014 files exist but the format blocks automated profiling.",
-      "<strong>Deaconess</strong> is Indiana\u2019s most transparent system: 6 facilities at 54\u201374% (Substantial tier) with 7\u201320 payers and cash discounts of 41\u201370%.",
-      "<strong>Stones Crossing Imaging Center</strong> hits 98.9% with 51 payers \u2014 the only Full-tier facility in the state.",
-      "<strong>129 of 148 hospitals</strong> in the CMS inventory had no discoverable cms-hpt.txt file \u2014 the largest discovery gap in the Midwest.",
-      "Indiana lacks the mega-system transparency leaders seen in neighboring states (ThedaCare in WI, MercyOne in IA, McLaren in MI).",
-      "<strong>Mercy Hospital Columbus</strong> discloses 162 payers but only 25.7% transparency \u2014 many payers listed, few rates actually disclosed."
+      "<strong>IU Health</strong> achieves 100% transparency at all 16 facilities \u2014 20\u201329 payers, 53\u201379% cash discounts. Indiana\u2019s gold standard and one of the best system-wide performances in the Midwest.",
+      "<strong>Parkview Health</strong> (10 Fort Wayne-area facilities) scores 0.5\u20134.4% \u2014 files are JSON served as CSV, and what parses contains almost no negotiated rates. Minimal compliance.",
+      "<strong>Deaconess</strong> (Evansville) clusters at 54\u201374% (Substantial) with 7\u201320 payers and generous cash discounts of 41\u201370%.",
+      "<strong>Riley Children\u2019s Hospital</strong> at IU Health hits 100% with 29 payers \u2014 full compliance at Indiana\u2019s flagship pediatric center.",
+      "<strong>IU Health\u2019s cash discounts</strong> (53\u201379%) are among the highest in the Midwest \u2014 a self-pay patient at IU Health Bedford saves 70% off gross charges.",
+      "<strong>Community Health Network</strong> \u2014 despite 17 hospitals in CMS inventory \u2014 only Stones Crossing Imaging Center was discoverable (100%, 51 payers)."
     ]
   },
   "KS": {
@@ -140,17 +140,17 @@
     ]
   },
   "OH": {
-    "hero_title": "Ohio: 14 Full-Tier Hospitals, But Most Systems Are Missing",
-    "hero_subtitle": "Cleveland Clinic, OhioHealth, UC Health absent \u2014 Ohio\u2019s biggest systems are invisible.",
-    "hospital_count": 43,
-    "intro_text": "Ohio\u2019s 0.2% median is the lowest in the Midwest \u2014 driven by massive discovery gaps. OhioHealth, Cleveland Clinic, and UC Health are absent from our pipeline entirely. ProMedica and Aultman provide the state\u2019s best data, while AdventHealth entries again pollute with non-Ohio facilities.",
+    "hero_title": "Ohio: Cleveland Clinic Discloses, OhioHealth Stays Dark",
+    "hero_subtitle": "The Clinic averages 53% across 19 hospitals. OhioHealth\u2019s 16 facilities remain at 0%.",
+    "hospital_count": 69,
+    "intro_text": "Ohio\u2019s transparency picture improved dramatically once Cleveland Clinic\u2019s ZIP-compressed files were properly parsed. The Clinic averages 53% (Substantial) across 19 hospitals with 19\u201346 payers. TriHealth in Cincinnati hits 76\u201379%. But OhioHealth \u2014 Columbus\u2019s dominant system \u2014 remains at 0%, and Kettering Health in Dayton scores 0.4\u20132.1%.",
     "findings": [
-      "<strong>OhioHealth, Cleveland Clinic, UC Health, TriHealth</strong> \u2014 Ohio\u2019s largest systems \u2014 are absent from our discovery pipeline entirely.",
-      "<strong>ProMedica</strong> provides the strongest Ohio disclosure with consistent Full-tier performance across northwest Ohio.",
-      "<strong>Aultman</strong> (Canton) achieves solid transparency \u2014 one of the few Ohio systems with parseable chargemasters.",
-      "<strong>20 None-tier entries</strong> \u2014 many are AdventHealth and Mercy facilities misattributed from national txt files.",
-      "Only 43 of 192 non-VA hospitals profiled \u2014 22% discovery rate, the worst in the Midwest.",
-      "<strong>Ohio needs targeted harvesting</strong> for Cleveland Clinic, OhioHealth, Kettering Health, and Premier Health."
+      "<strong>Cleveland Clinic</strong> averages 53% transparency across 19 Ohio hospitals with 19\u201346 payers and a uniform 35% cash discount. The flagship Main Campus scores 38.5% \u2014 lower than its community hospitals.",
+      "<strong>TriHealth</strong> (Cincinnati) is Ohio\u2019s transparency leader: 76\u201379% at all 6 facilities with 114 payers and 25% cash discount.",
+      "<strong>OhioHealth</strong> (16 Columbus-area hospitals) remains at 0% \u2014 files are valid JSON but the streaming profiler finds no negotiated dollar values. A structural disclosure gap.",
+      "<strong>Kettering Health</strong> (9 Dayton-area hospitals) scores 0.4\u20132.1% \u2014 technically not zero, but functionally useless for price comparison.",
+      "<strong>ProMedica</strong> and <strong>Aultman</strong> anchor northwest and northeast Ohio with consistent Full-tier performance.",
+      "<strong>Cleveland Clinic Main Campus at 38.5%</strong> is a notable finding \u2014 the nation\u2019s #2-ranked hospital discloses payer rates for barely a third of its services."
     ]
   },
   "SD": {

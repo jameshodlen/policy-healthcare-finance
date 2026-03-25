@@ -870,136 +870,22 @@
     ]
   },
   "IA": {
-    "median_transparency": 65.4,
-    "total_hospitals": 45,
+    "median_transparency": 94.4,
+    "total_hospitals": 31,
     "tiers": {
       "Full": 17,
       "Substantial": 14,
       "Partial": 0,
       "Minimal": 0,
-      "None": 14
+      "None": 0
     },
     "systems": [
-      "Gundersen",
       "Iowa Specialty",
       "MercyOne",
-      "Trinity Health",
       "UI Health",
       "UnityPoint Health"
     ],
     "hospitals": [
-      {
-        "name": "MercyOne Genesis Davenport Medical Center",
-        "system": "MercyOne",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "MercyOne Genesis Davenport West Medical Center",
-        "system": "MercyOne",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "MercyOne Genesis Silvis Medical Center",
-        "system": "MercyOne",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "MercyOne Genesis Aledo Medical Center",
-        "system": "MercyOne",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "MercyOne Genesis DeWitt Medical Center",
-        "system": "MercyOne",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Trinity Hospitals",
-        "system": "Trinity Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Trinity Health Kenmare Hospital",
-        "system": "Trinity Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen Lutheran Medical Center",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen Boscobel Area Hospital",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen Moundview Hospital",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen St. Elizabeth's Hospital",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen St. Joseph's Hospital",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen Palmer Lutheran Hospital",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Gundersen Tri-County Hospital",
-        "system": "Gundersen",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
       {
         "name": "UnityPoint Health - Iowa Methodist Medical Center",
         "system": "UnityPoint Health",
@@ -1251,10 +1137,10 @@
     ]
   },
   "IN": {
-    "median_transparency": 0.0,
-    "total_hospitals": 19,
+    "median_transparency": 64.0,
+    "total_hospitals": 31,
     "tiers": {
-      "Full": 1,
+      "Full": 13,
       "Substantial": 6,
       "Partial": 1,
       "Minimal": 1,
@@ -1262,6 +1148,7 @@
     },
     "systems": [
       "Deaconess",
+      "IU Health",
       "Independent",
       "Mercy",
       "Parkview Health",
@@ -1419,18 +1306,114 @@
         "tier": "Full",
         "payer_count": 51,
         "cash_discount_pct": 40
+      },
+      {
+        "name": "IU Health Arnett Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 25,
+        "cash_discount_pct": 75
+      },
+      {
+        "name": "IU Health Ball Memorial Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 21,
+        "cash_discount_pct": 79
+      },
+      {
+        "name": "IU Health Bedford Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 20,
+        "cash_discount_pct": 70
+      },
+      {
+        "name": "IU Health Bloomington Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 27,
+        "cash_discount_pct": 75
+      },
+      {
+        "name": "IU Health Frankfort Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 20,
+        "cash_discount_pct": 59
+      },
+      {
+        "name": "IU Health Jay Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 20,
+        "cash_discount_pct": 53
+      },
+      {
+        "name": "IU Health Methodist",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 29,
+        "cash_discount_pct": 71
+      },
+      {
+        "name": "IU Health North Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 29,
+        "cash_discount_pct": 69
+      },
+      {
+        "name": "IU Health Paoli Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 28,
+        "cash_discount_pct": 61
+      },
+      {
+        "name": "IU Health Tipton Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 23,
+        "cash_discount_pct": 62
+      },
+      {
+        "name": "IU Health West Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 29,
+        "cash_discount_pct": 74
+      },
+      {
+        "name": "IU Health White Memorial Hospital",
+        "system": "IU Health",
+        "transparency_pct": 100.0,
+        "tier": "Full",
+        "payer_count": 27,
+        "cash_discount_pct": 67
       }
     ]
   },
   "KS": {
-    "median_transparency": 0.0,
-    "total_hospitals": 48,
+    "median_transparency": 86.2,
+    "total_hospitals": 11,
     "tiers": {
       "Full": 7,
       "Substantial": 0,
       "Partial": 0,
       "Minimal": 1,
-      "None": 40
+      "None": 3
     },
     "systems": [
       "AdventHealth",
@@ -1440,247 +1423,7 @@
     ],
     "hospitals": [
       {
-        "name": "AdventHealth Polk",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Avista",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Carrollwood",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Castle Rock",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Central Texas",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Connerton",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Dade City",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Daytona Beach",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Deland",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Durand",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Fish Memorial",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Gordon",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Four Corners ER",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Hendersonville",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Lake Wales",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Littleton",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Manchester",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Murray",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth New Smyrna Beach",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth North Pinellas",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Ocala",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Orlando",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
         "name": "AdventHealth Ottawa",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Palm Coast",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Parker",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Port Charlotte",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Porter",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Redmond",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Riverview",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Rollins Brook",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Sebring",
         "system": "AdventHealth",
         "transparency_pct": 0.0,
         "tier": "None",
@@ -1698,62 +1441,6 @@
       {
         "name": "AdventHealth South Overland Park",
         "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Tampa",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Waterman",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Wauchula",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Wesley Chapel",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "AdventHealth Zephyrhills",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Texas Health Hospital Mansfield",
-        "system": "Independent",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Texas Health Huguley Hospital Fort Worth South",
-        "system": "Independent",
         "transparency_pct": 0.0,
         "tier": "None",
         "payer_count": 0,
@@ -2295,21 +1982,20 @@
     ]
   },
   "MO": {
-    "median_transparency": 15.6,
-    "total_hospitals": 84,
+    "median_transparency": 98.9,
+    "total_hospitals": 48,
     "tiers": {
-      "Full": 34,
+      "Full": 25,
       "Substantial": 0,
       "Partial": 5,
-      "Minimal": 23,
-      "None": 22
+      "Minimal": 10,
+      "None": 8
     },
     "systems": [
       "BJC Healthcare",
       "CoxHealth",
       "Independent",
       "Mercy",
-      "Providence",
       "SSM Health"
     ],
     "hospitals": [
@@ -2378,132 +2064,12 @@
         "cash_discount_pct": null
       },
       {
-        "name": "SSM Health St. Mary's Hospital - St. Louis",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Mary's Hospital - Jefferson City",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Anthony Hospital - Oklahoma City",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Anthony Hospital - Midwest",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Anthony Hospital - Shawnee",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health Good Samaritan Hospital - Mt. Vernon",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Mary's Hospital - Centralia",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health Monroe Hospital",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health Ripon Community Hospital",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Agnes Hospital - Fond du Lac",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Clare Hospital - Baraboo",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Mary's Hospital - Janesville",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health St. Mary's Hospital - Madison",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "SSM Health Waupun Memorial Hospital",
-        "system": "SSM Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
         "name": "Mercy Hospital Pittsburg",
         "system": "Mercy",
         "transparency_pct": 1.4,
         "tier": "Minimal",
         "payer_count": 22,
         "cash_discount_pct": 60
-      },
-      {
-        "name": "Love County Health Center",
-        "system": "Independent",
-        "transparency_pct": 4.3,
-        "tier": "Minimal",
-        "payer_count": 73,
-        "cash_discount_pct": 35
       },
       {
         "name": "Mercy Rehabilitation Hospital St Louis",
@@ -2522,30 +2088,6 @@
         "cash_discount_pct": 0
       },
       {
-        "name": "Mercy Rehabilitation Hospital Fort Smith",
-        "system": "Mercy",
-        "transparency_pct": 6.1,
-        "tier": "Minimal",
-        "payer_count": 23,
-        "cash_discount_pct": 0
-      },
-      {
-        "name": "Mercy Rehabilitation Hospital Oklahoma City",
-        "system": "Mercy",
-        "transparency_pct": 6.1,
-        "tier": "Minimal",
-        "payer_count": 16,
-        "cash_discount_pct": 0
-      },
-      {
-        "name": "Mercy Rehabilitation Hospital Oklahoma City South",
-        "system": "Mercy",
-        "transparency_pct": 6.1,
-        "tier": "Minimal",
-        "payer_count": 16,
-        "cash_discount_pct": 0
-      },
-      {
         "name": "Mercy Hospital Carthage",
         "system": "Mercy",
         "transparency_pct": 6.2,
@@ -2559,30 +2101,6 @@
         "transparency_pct": 7.1,
         "tier": "Minimal",
         "payer_count": 167,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Perry",
-        "system": "Mercy",
-        "transparency_pct": 7.9,
-        "tier": "Minimal",
-        "payer_count": 116,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Ada",
-        "system": "Mercy",
-        "transparency_pct": 8.0,
-        "tier": "Minimal",
-        "payer_count": 166,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Berryville",
-        "system": "Mercy",
-        "transparency_pct": 8.8,
-        "tier": "Minimal",
-        "payer_count": 176,
         "cash_discount_pct": 35
       },
       {
@@ -2618,59 +2136,11 @@
         "cash_discount_pct": 35
       },
       {
-        "name": "Mercy Rehabilitation Hospital Northwest Arkansas",
-        "system": "Mercy",
-        "transparency_pct": 13.7,
-        "tier": "Minimal",
-        "payer_count": 24,
-        "cash_discount_pct": 0
-      },
-      {
-        "name": "Mercy Hospital Logan County",
-        "system": "Mercy",
-        "transparency_pct": 14.5,
-        "tier": "Minimal",
-        "payer_count": 174,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Providence St Joseph Hospital Orange",
-        "system": "Providence",
-        "transparency_pct": 14.9,
-        "tier": "Minimal",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Providence St Joseph Hospital",
-        "system": "Providence",
-        "transparency_pct": 14.9,
-        "tier": "Minimal",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Mercy Hospital Paris",
-        "system": "Mercy",
-        "transparency_pct": 15.6,
-        "tier": "Minimal",
-        "payer_count": 153,
-        "cash_discount_pct": 35
-      },
-      {
         "name": "Mercy Hospital Ozark",
         "system": "Mercy",
         "transparency_pct": 15.9,
         "tier": "Minimal",
         "payer_count": 172,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Waldron",
-        "system": "Mercy",
-        "transparency_pct": 16.0,
-        "tier": "Minimal",
-        "payer_count": 176,
         "cash_discount_pct": 35
       },
       {
@@ -2912,114 +2382,25 @@
         "tier": "Full",
         "payer_count": 254,
         "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Saint Joseph Mount Sterling",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Saint Joseph Berea",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Saint Joseph East",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Saint Joseph Hospital",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Saint Joseph Jessamine",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Saint Joseph London",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health Women's Hospital Saint Joseph East",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Saint Joseph Health - Flaget Memorial Hospital",
-        "system": "Independent",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Providence St Joseph Medical Center",
-        "system": "Providence",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
       }
     ]
   },
   "ND": {
-    "median_transparency": 76.7,
-    "total_hospitals": 40,
+    "median_transparency": 76.8,
+    "total_hospitals": 38,
     "tiers": {
       "Full": 12,
       "Substantial": 24,
       "Partial": 1,
       "Minimal": 0,
-      "None": 3
+      "None": 1
     },
     "systems": [
       "CHI Health",
       "Independent",
-      "Sanford Health",
-      "Trinity Health"
+      "Sanford Health"
     ],
     "hospitals": [
-      {
-        "name": "Trinity Hospitals",
-        "system": "Trinity Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Trinity Health Kenmare Hospital",
-        "system": "Trinity Health",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
       {
         "name": "Altru Health System",
         "system": "Independent",
@@ -3498,19 +2879,20 @@
     ]
   },
   "OH": {
-    "median_transparency": 0.2,
-    "total_hospitals": 43,
+    "median_transparency": 23.8,
+    "total_hospitals": 69,
     "tiers": {
       "Full": 14,
-      "Substantial": 3,
-      "Partial": 1,
-      "Minimal": 5,
-      "None": 20
+      "Substantial": 14,
+      "Partial": 7,
+      "Minimal": 16,
+      "None": 18
     },
     "systems": [
-      "AdventHealth",
       "Aultman",
+      "Cleveland Clinic",
       "Independent",
+      "Kettering Health",
       "Mercy",
       "ProMedica"
     ],
@@ -3660,22 +3042,6 @@
         "cash_discount_pct": 40
       },
       {
-        "name": "AdventHealth Daytona Beach",
-        "system": "AdventHealth",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Texas Health Hospital Mansfield",
-        "system": "Independent",
-        "transparency_pct": 0.0,
-        "tier": "None",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
         "name": "Perrysburg Hospital",
         "system": "Independent",
         "transparency_pct": 0.1,
@@ -3700,11 +3066,99 @@
         "cash_discount_pct": null
       },
       {
+        "name": "Cleveland Clinic Rehabilitation Hospital, Avon",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 0.3,
+        "tier": "Minimal",
+        "payer_count": 334,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Kettering Health Greene Memorial",
+        "system": "Kettering Health",
+        "transparency_pct": 0.4,
+        "tier": "Minimal",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Cleveland Clinic Rehabilitation Hospital, Beachwood",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 0.6,
+        "tier": "Minimal",
+        "payer_count": 334,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Cleveland Clinic Rehabilitation Hospital, Edwin Shaw",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 0.6,
+        "tier": "Minimal",
+        "payer_count": 334,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Cleveland Clinic Rehabilitation Hospital, Fairhill",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 0.6,
+        "tier": "Minimal",
+        "payer_count": 334,
+        "cash_discount_pct": null
+      },
+      {
         "name": "Lourdes Hospital",
         "system": "Independent",
         "transparency_pct": 0.8,
         "tier": "Minimal",
         "payer_count": 134,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Kettering Health Troy",
+        "system": "Kettering Health",
+        "transparency_pct": 0.8,
+        "tier": "Minimal",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Kettering Health Miamisburg (Sycamore)",
+        "system": "Kettering Health",
+        "transparency_pct": 1.2,
+        "tier": "Minimal",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Kettering Health Hamilton (Fort Hamilton)",
+        "system": "Kettering Health",
+        "transparency_pct": 1.4,
+        "tier": "Minimal",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Soin Medical Center",
+        "system": "Kettering Health",
+        "transparency_pct": 1.5,
+        "tier": "Minimal",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Kettering Health Dayton (Grandview)",
+        "system": "Kettering Health",
+        "transparency_pct": 2.0,
+        "tier": "Minimal",
+        "payer_count": 0,
+        "cash_discount_pct": null
+      },
+      {
+        "name": "Kettering Health Main Campus (Kettering)",
+        "system": "Kettering Health",
+        "transparency_pct": 2.1,
+        "tier": "Minimal",
+        "payer_count": 0,
         "cash_discount_pct": null
       },
       {
@@ -3716,11 +3170,147 @@
         "cash_discount_pct": 0
       },
       {
+        "name": "cleveland clinic florida weston hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 23.8,
+        "tier": "Partial",
+        "payer_count": 19,
+        "cash_discount_pct": 35
+      },
+      {
         "name": "Mercy Hospital Columbus",
         "system": "Mercy",
         "transparency_pct": 25.7,
         "tier": "Partial",
         "payer_count": 162,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "cleveland clinic main campus",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 38.5,
+        "tier": "Partial",
+        "payer_count": 46,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "fairview hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 47.5,
+        "tier": "Partial",
+        "payer_count": 43,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "euclid hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 47.7,
+        "tier": "Partial",
+        "payer_count": 40,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "lutheran hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 47.8,
+        "tier": "Partial",
+        "payer_count": 43,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "marymount hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 48.0,
+        "tier": "Partial",
+        "payer_count": 43,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "medina hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 51.1,
+        "tier": "Substantial",
+        "payer_count": 39,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "hillcrest hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 52.0,
+        "tier": "Substantial",
+        "payer_count": 39,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "south pointe hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 52.4,
+        "tier": "Substantial",
+        "payer_count": 39,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "martin north hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 53.0,
+        "tier": "Substantial",
+        "payer_count": 21,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "avon hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 53.9,
+        "tier": "Substantial",
+        "payer_count": 34,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "union hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 54.1,
+        "tier": "Substantial",
+        "payer_count": 37,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "mercy hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 59.2,
+        "tier": "Substantial",
+        "payer_count": 32,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "indian river hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 63.0,
+        "tier": "Substantial",
+        "payer_count": 24,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "cleveland clinic childrens hospital for rehabilitation",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 63.4,
+        "tier": "Substantial",
+        "payer_count": 31,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "akron general",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 66.9,
+        "tier": "Substantial",
+        "payer_count": 37,
+        "cash_discount_pct": 35
+      },
+      {
+        "name": "lodi hospital",
+        "system": "Cleveland Clinic",
+        "transparency_pct": 72.1,
+        "tier": "Substantial",
+        "payer_count": 31,
         "cash_discount_pct": 35
       },
       {
