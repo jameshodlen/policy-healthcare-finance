@@ -1,10 +1,10 @@
 {
   "WI": {
-    "median_transparency": 81.5,
-    "total_hospitals": 31,
+    "median_transparency": 99.9,
+    "total_hospitals": 24,
     "tiers": {
-      "Full": 16,
-      "Substantial": 9,
+      "Full": 14,
+      "Substantial": 4,
       "Partial": 6,
       "Minimal": 0,
       "None": 0
@@ -55,14 +55,6 @@
         "cash_discount_pct": 35
       },
       {
-        "name": "Bellin Health System",
-        "system": "Bellin",
-        "transparency_pct": 74.5,
-        "tier": "Substantial",
-        "payer_count": 23,
-        "cash_discount_pct": 35
-      },
-      {
         "name": "Holy Family Memorial Inc",
         "system": "Froedtert",
         "transparency_pct": 55.3,
@@ -101,54 +93,6 @@
         "tier": "Full",
         "payer_count": 8,
         "cash_discount_pct": 49
-      },
-      {
-        "name": "Gundersen Health System",
-        "system": "Gundersen",
-        "transparency_pct": 68.8,
-        "tier": "Substantial",
-        "payer_count": 30,
-        "cash_discount_pct": 62
-      },
-      {
-        "name": "Gundersen Health System",
-        "system": "Gundersen",
-        "transparency_pct": 79.9,
-        "tier": "Substantial",
-        "payer_count": 17,
-        "cash_discount_pct": 49
-      },
-      {
-        "name": "Gundersen Health System",
-        "system": "Gundersen",
-        "transparency_pct": 78.5,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 43
-      },
-      {
-        "name": "Gundersen Health System",
-        "system": "Gundersen",
-        "transparency_pct": 72.4,
-        "tier": "Substantial",
-        "payer_count": 18,
-        "cash_discount_pct": 21
-      },
-      {
-        "name": "Gundersen Health System",
-        "system": "Gundersen",
-        "transparency_pct": 81.5,
-        "tier": "Full",
-        "payer_count": 15,
-        "cash_discount_pct": 42
-      },
-      {
-        "name": "Gundersen Health System",
-        "system": "Gundersen",
-        "transparency_pct": 84.4,
-        "tier": "Full",
-        "payer_count": 14,
-        "cash_discount_pct": 40
       },
       {
         "name": "Marshfield Medical Center - Eau Claire",
@@ -550,14 +494,14 @@
     ]
   },
   "IL": {
-    "median_transparency": 65.1,
-    "total_hospitals": 37,
+    "median_transparency": 65.9,
+    "total_hospitals": 36,
     "tiers": {
       "Full": 15,
       "Substantial": 16,
       "Partial": 2,
-      "Minimal": 0,
-      "None": 4
+      "Minimal": 1,
+      "None": 2
     },
     "systems": [
       "Advocate",
@@ -580,14 +524,6 @@
         "cash_discount_pct": 20
       },
       {
-        "name": "OSF Healthcare System",
-        "system": "OSF",
-        "transparency_pct": 0,
-        "tier": "None",
-        "payer_count": 78,
-        "cash_discount_pct": 40
-      },
-      {
         "name": "Ingalls Memorial Hospital",
         "system": "UChicago",
         "transparency_pct": 0,
@@ -598,9 +534,9 @@
       {
         "name": "The University of Chicago Medical Center",
         "system": "UChicago",
-        "transparency_pct": 0,
-        "tier": "None",
-        "payer_count": 0,
+        "transparency_pct": 2.9,
+        "tier": "Minimal",
+        "payer_count": 15,
         "cash_discount_pct": 40
       },
       {
@@ -1137,12 +1073,12 @@
     ]
   },
   "IN": {
-    "median_transparency": 64.0,
-    "total_hospitals": 31,
+    "median_transparency": 68.0,
+    "total_hospitals": 30,
     "tiers": {
       "Full": 13,
       "Substantial": 6,
-      "Partial": 1,
+      "Partial": 0,
       "Minimal": 1,
       "None": 10
     },
@@ -1150,7 +1086,6 @@
       "Deaconess",
       "IU Health",
       "Independent",
-      "Mercy",
       "Parkview Health",
       "Providence"
     ],
@@ -1242,14 +1177,6 @@
         "tier": "Minimal",
         "payer_count": 0,
         "cash_discount_pct": null
-      },
-      {
-        "name": "Mercy Hospital Columbus",
-        "system": "Mercy",
-        "transparency_pct": 25.7,
-        "tier": "Partial",
-        "payer_count": 162,
-        "cash_discount_pct": 35
       },
       {
         "name": "Deaconess Gateway Hospital",
@@ -1975,12 +1902,12 @@
   },
   "MO": {
     "median_transparency": 98.9,
-    "total_hospitals": 48,
+    "total_hospitals": 45,
     "tiers": {
       "Full": 25,
       "Substantial": 0,
-      "Partial": 5,
-      "Minimal": 10,
+      "Partial": 4,
+      "Minimal": 8,
       "None": 8
     },
     "systems": [
@@ -2056,14 +1983,6 @@
         "cash_discount_pct": null
       },
       {
-        "name": "Mercy Hospital Pittsburg",
-        "system": "Mercy",
-        "transparency_pct": 1.4,
-        "tier": "Minimal",
-        "payer_count": 22,
-        "cash_discount_pct": 60
-      },
-      {
         "name": "Mercy Rehabilitation Hospital St Louis",
         "system": "Mercy",
         "transparency_pct": 5.7,
@@ -2120,14 +2039,6 @@
         "cash_discount_pct": 0
       },
       {
-        "name": "Mercy Specialty Hospital - Southeast Kansas",
-        "system": "Mercy",
-        "transparency_pct": 13.1,
-        "tier": "Minimal",
-        "payer_count": 134,
-        "cash_discount_pct": 35
-      },
-      {
         "name": "Mercy Hospital Ozark",
         "system": "Mercy",
         "transparency_pct": 15.9,
@@ -2141,14 +2052,6 @@
         "transparency_pct": 22.2,
         "tier": "Partial",
         "payer_count": 155,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Columbus",
-        "system": "Mercy",
-        "transparency_pct": 25.7,
-        "tier": "Partial",
-        "payer_count": 162,
         "cash_discount_pct": 35
       },
       {
@@ -2378,17 +2281,16 @@
     ]
   },
   "ND": {
-    "median_transparency": 76.8,
-    "total_hospitals": 38,
+    "median_transparency": 76.1,
+    "total_hospitals": 4,
     "tiers": {
-      "Full": 12,
-      "Substantial": 24,
+      "Full": 0,
+      "Substantial": 2,
       "Partial": 1,
       "Minimal": 0,
       "None": 1
     },
     "systems": [
-      "CHI Health",
       "Independent",
       "Sanford Health"
     ],
@@ -2410,102 +2312,6 @@
         "cash_discount_pct": 20
       },
       {
-        "name": "Sanford Bemidji Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 57.6,
-        "tier": "Substantial",
-        "payer_count": 4,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Aberdeen Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 61.2,
-        "tier": "Substantial",
-        "payer_count": 11,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Worthington Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 66.5,
-        "tier": "Substantial",
-        "payer_count": 11,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "CHI Health Creighton University Medical Center - Bergan  Mercy",
-        "system": "CHI Health",
-        "transparency_pct": 67.7,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Mercy Council Bluffs",
-        "system": "CHI Health",
-        "transparency_pct": 67.8,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Immanuel",
-        "system": "CHI Health",
-        "transparency_pct": 67.8,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Lasting Hope Recovery Center",
-        "system": "Independent",
-        "transparency_pct": 67.8,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Lakeside",
-        "system": "CHI Health",
-        "transparency_pct": 67.8,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Midlands",
-        "system": "CHI Health",
-        "transparency_pct": 67.8,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Sanford Thief River Falls Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 72.0,
-        "tier": "Substantial",
-        "payer_count": 13,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Wheaton",
-        "system": "Sanford Health",
-        "transparency_pct": 72.5,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford USD Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 74.8,
-        "tier": "Substantial",
-        "payer_count": 4,
-        "cash_discount_pct": 20
-      },
-      {
         "name": "Sanford Medical Center Hillsboro",
         "system": "Sanford Health",
         "transparency_pct": 76.1,
@@ -2520,230 +2326,29 @@
         "tier": "Substantial",
         "payer_count": 15,
         "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Jackson Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 76.3,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Westbrook Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 76.7,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Tracy Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 76.7,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Canby Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 76.8,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Bagley Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 77.4,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Luverne Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 78.4,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Behavioral Health Thief River Falls",
-        "system": "Sanford Health",
-        "transparency_pct": 78.4,
-        "tier": "Substantial",
-        "payer_count": 14,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "CHI Health Mercy Corning",
-        "system": "CHI Health",
-        "transparency_pct": 79.1,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Missouri Valley",
-        "system": "CHI Health",
-        "transparency_pct": 79.1,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Schuyler",
-        "system": "CHI Health",
-        "transparency_pct": 79.1,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Sanford Sheldon Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 80.1,
-        "tier": "Full",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "CHI Health Plainview",
-        "system": "CHI Health",
-        "transparency_pct": 80.1,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "Sanford Clear Lake Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 81.5,
-        "tier": "Full",
-        "payer_count": 17,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Hospital Webster",
-        "system": "Sanford Health",
-        "transparency_pct": 83.4,
-        "tier": "Full",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Chamberlain Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 83.4,
-        "tier": "Full",
-        "payer_count": 14,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Canton Inwood Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 83.4,
-        "tier": "Full",
-        "payer_count": 14,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Vermillion Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 83.4,
-        "tier": "Full",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "CHI Health Good Samaritan",
-        "system": "CHI Health",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Nebraska Heart",
-        "system": "CHI Health",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health St. Elizabeth",
-        "system": "CHI Health",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health St. Francis",
-        "system": "CHI Health",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health St. Mary's",
-        "system": "CHI Health",
-        "transparency_pct": 100.0,
-        "tier": "Full",
-        "payer_count": 0,
-        "cash_discount_pct": null
       }
     ]
   },
   "NE": {
-    "median_transparency": 79.1,
-    "total_hospitals": 19,
+    "median_transparency": 100.0,
+    "total_hospitals": 14,
     "tiers": {
       "Full": 8,
-      "Substantial": 9,
-      "Partial": 1,
-      "Minimal": 1,
+      "Substantial": 6,
+      "Partial": 0,
+      "Minimal": 0,
       "None": 0
     },
     "systems": [
       "CHI Health",
       "Independent",
-      "Mercy",
       "Nebraska Medicine"
     ],
     "hospitals": [
       {
-        "name": "Mercy Hospital Lincoln",
-        "system": "Mercy",
-        "transparency_pct": 9.7,
-        "tier": "Minimal",
-        "payer_count": 315,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Columbus",
-        "system": "Mercy",
-        "transparency_pct": 25.7,
-        "tier": "Partial",
-        "payer_count": 162,
-        "cash_discount_pct": 35
-      },
-      {
         "name": "CHI Health Creighton University Medical Center - Bergan  Mercy",
         "system": "CHI Health",
         "transparency_pct": 67.7,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Mercy Council Bluffs",
-        "system": "CHI Health",
-        "transparency_pct": 67.8,
         "tier": "Substantial",
         "payer_count": 0,
         "cash_discount_pct": null
@@ -2776,22 +2381,6 @@
         "name": "CHI Health Midlands",
         "system": "CHI Health",
         "transparency_pct": 67.8,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Mercy Corning",
-        "system": "CHI Health",
-        "transparency_pct": 79.1,
-        "tier": "Substantial",
-        "payer_count": 0,
-        "cash_discount_pct": null
-      },
-      {
-        "name": "CHI Health Missouri Valley",
-        "system": "CHI Health",
-        "transparency_pct": 79.1,
         "tier": "Substantial",
         "payer_count": 0,
         "cash_discount_pct": null
@@ -2872,12 +2461,12 @@
   },
   "OH": {
     "median_transparency": 23.8,
-    "total_hospitals": 69,
+    "total_hospitals": 67,
     "tiers": {
       "Full": 14,
       "Substantial": 14,
-      "Partial": 7,
-      "Minimal": 16,
+      "Partial": 6,
+      "Minimal": 15,
       "None": 18
     },
     "systems": [
@@ -3154,27 +2743,11 @@
         "cash_discount_pct": null
       },
       {
-        "name": "Mercy Rehabilitation Hospital Springfield",
-        "system": "Mercy",
-        "transparency_pct": 12.0,
-        "tier": "Minimal",
-        "payer_count": 58,
-        "cash_discount_pct": 0
-      },
-      {
         "name": "cleveland clinic florida weston hospital",
         "system": "Cleveland Clinic",
         "transparency_pct": 23.8,
         "tier": "Partial",
         "payer_count": 19,
-        "cash_discount_pct": 35
-      },
-      {
-        "name": "Mercy Hospital Columbus",
-        "system": "Mercy",
-        "transparency_pct": 25.7,
-        "tier": "Partial",
-        "payer_count": 162,
         "cash_discount_pct": 35
       },
       {
@@ -3444,12 +3017,12 @@
     ]
   },
   "SD": {
-    "median_transparency": 76.8,
-    "total_hospitals": 27,
+    "median_transparency": 83.4,
+    "total_hospitals": 12,
     "tiers": {
-      "Full": 10,
-      "Substantial": 15,
-      "Partial": 1,
+      "Full": 9,
+      "Substantial": 2,
+      "Partial": 0,
       "Minimal": 1,
       "None": 0
     },
@@ -3467,22 +3040,6 @@
         "cash_discount_pct": 0
       },
       {
-        "name": "Sanford Fargo Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 39.2,
-        "tier": "Partial",
-        "payer_count": 2,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Bemidji Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 57.6,
-        "tier": "Substantial",
-        "payer_count": 4,
-        "cash_discount_pct": 20
-      },
-      {
         "name": "Sanford Aberdeen Medical Center",
         "system": "Sanford Health",
         "transparency_pct": 61.2,
@@ -3491,115 +3048,11 @@
         "cash_discount_pct": 20
       },
       {
-        "name": "Sanford Worthington Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 66.5,
-        "tier": "Substantial",
-        "payer_count": 11,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Thief River Falls Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 72.0,
-        "tier": "Substantial",
-        "payer_count": 13,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Wheaton",
-        "system": "Sanford Health",
-        "transparency_pct": 72.5,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
         "name": "Sanford USD Medical Center",
         "system": "Sanford Health",
         "transparency_pct": 74.8,
         "tier": "Substantial",
         "payer_count": 4,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Medical Center Hillsboro",
-        "system": "Sanford Health",
-        "transparency_pct": 76.1,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Medical Center Mayville",
-        "system": "Sanford Health",
-        "transparency_pct": 76.1,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Jackson Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 76.3,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Westbrook Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 76.7,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Tracy Hospital",
-        "system": "Sanford Health",
-        "transparency_pct": 76.7,
-        "tier": "Substantial",
-        "payer_count": 16,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Canby Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 76.8,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Bagley Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 77.4,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Luverne Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 78.4,
-        "tier": "Substantial",
-        "payer_count": 15,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Behavioral Health Thief River Falls",
-        "system": "Sanford Health",
-        "transparency_pct": 78.4,
-        "tier": "Substantial",
-        "payer_count": 14,
-        "cash_discount_pct": 20
-      },
-      {
-        "name": "Sanford Sheldon Medical Center",
-        "system": "Sanford Health",
-        "transparency_pct": 80.1,
-        "tier": "Full",
-        "payer_count": 15,
         "cash_discount_pct": 20
       },
       {

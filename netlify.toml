@@ -14,6 +14,10 @@
     Cache-Control = "public, max-age=3600"
     Access-Control-Allow-Origin = "*"
 
+# Active state pages (12 Midwest states, March 2026):
+# WI, MN, IL, IA, IN, KS, MI, MO, ND, NE, OH, SD
+# Add new [[redirects]] entries as additional state pages are generated.
+
 [[redirects]]
   from = "/wisconsin"
   to = "/wisconsin.html"

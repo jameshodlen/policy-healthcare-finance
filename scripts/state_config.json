@@ -2,7 +2,7 @@
   "WI": {
     "hero_title": "Wisconsin: Where ThedaCare Leads and Froedtert Lags",
     "hero_subtitle": "The state with the highest median transparency \u00e2\u20ac\u201d and the sharpest system-level contrasts.",
-    "hospital_count": 31,
+    "hospital_count": 24,
     "intro_text": "ThedaCare achieves 100% transparency at all 9 facilities. Froedtert Hospital \u00e2\u20ac\u201d Milwaukee's flagship \u00e2\u20ac\u201d discloses rates for only 6 payers. UW Health discloses 112 payer contracts but remains on the outdated v2.0.0 schema.",
     "findings": [
       "<strong>ThedaCare</strong> is the transparency gold standard: 100% payer rate disclosure at all 9 facilities, up to 59 payers, current v3.0.0 schema, updated March 2026.",
@@ -30,7 +30,7 @@
   "IL": {
     "hero_title": "Illinois: The Academic Divergence",
     "hero_subtitle": "Northwestern and Rush comply fully. UChicago publishes almost nothing.",
-    "hospital_count": 37,
+    "hospital_count": 36,
     "intro_text": "Three of Chicago's four academic flagships comply comprehensively. UChicago Medical Center discloses payer rates for only 2.9% of items \u00e2\u20ac\u201d exclusively DRG bundles \u00e2\u20ac\u201d while individual line items show only list prices.",
     "findings": [
       "<strong>UChicago Medical Center</strong> discloses payer rates for 2.9% of items (2,302 of 78,504). Payer data exists only on DRG bundles; 97% of items show only gross charges and cash prices. Strategic selective disclosure.",
@@ -58,7 +58,7 @@
   "IN": {
     "hero_title": "Indiana: IU Health\u2019s Perfect Score Transforms the State",
     "hero_subtitle": "16 IU Health facilities at 100%. Parkview\u2019s 10 facilities at 1\u20134%. Two Indianas.",
-    "hospital_count": 31,
+    "hospital_count": 30,
     "intro_text": "IU Health \u2014 Indiana\u2019s largest system \u2014 achieves 100% transparency at all 16 facilities with 20\u201329 payers and cash discounts of 53\u201379%. Parkview Health in Fort Wayne scores 0.5\u20134.4% across 10 facilities \u2014 files are JSON disguised as CSV, and what parses contains almost no negotiated rates.",
     "findings": [
       "<strong>IU Health</strong> achieves 100% transparency at all 16 facilities \u2014 20\u201329 payers, 53\u201379% cash discounts. Indiana\u2019s gold standard and one of the best system-wide performances in the Midwest.",
@@ -100,7 +100,7 @@
   "MO": {
     "hero_title": "Missouri: BJC Shines, Mercy Hides, SSM Blocks",
     "hero_subtitle": "Three systems, three disclosure philosophies \u2014 and a polarized landscape.",
-    "hospital_count": 48,
+    "hospital_count": 45,
     "intro_text": "Missouri\u2019s 15.6% median masks a deeply polarized landscape. BJC Healthcare and CoxHealth achieve 100% at their flagship facilities. Mercy \u2014 Missouri\u2019s largest Catholic system \u2014 shows 99% at small Stoddard County clinics but 1\u201316% at its major hospitals. SSM Health returns 0% across all entries.",
     "findings": [
       "<strong>BJC Healthcare</strong> (Barnes-Jewish, St. Louis Children\u2019s) achieves 92\u2013100% across 13 facilities \u2014 comprehensive disclosure from Missouri\u2019s premier academic system.",
@@ -114,7 +114,7 @@
   "ND": {
     "hero_title": "North Dakota: Sanford\u2019s Solid Middle, CHI\u2019s Full Marks",
     "hero_subtitle": "No hospitals below 20% \u2014 the Midwest\u2019s most consistent disclosure state.",
-    "hospital_count": 38,
+    "hospital_count": 4,
     "intro_text": "North Dakota is a transparency success story. Sanford Health \u2014 the state\u2019s dominant system \u2014 clusters at 57\u201383% (Substantial tier) across its network. CHI Health facilities achieve 100%. Only 3 of 40 profiled hospitals scored 0%, and those appear to be non-ND entries from national txt files.",
     "findings": [
       "<strong>Sanford Health</strong> is consistently Substantial: 57\u201383% transparency, 4\u201317 payers, uniform 20% cash discount. Not Full tier, but reliably above 50%.",
@@ -128,7 +128,7 @@
   "NE": {
     "hero_title": "Nebraska: The Midwest\u2019s Quiet Transparency Leader",
     "hero_subtitle": "79.1% median \u2014 the highest in the Midwest, with zero hospitals at 0%.",
-    "hospital_count": 19,
+    "hospital_count": 14,
     "intro_text": "Nebraska has the highest median transparency in the Midwest at 79.1%, and every profiled hospital discloses at least some payer rates. CHI Health anchors the state with consistent performance, and Nebraska Medicine (UNMC) contributes strong academic disclosure.",
     "findings": [
       "<strong>Every profiled hospital discloses payer rates</strong> \u2014 Nebraska is the only Midwest state with zero None-tier hospitals.",
@@ -142,7 +142,7 @@
   "OH": {
     "hero_title": "Ohio: Cleveland Clinic Discloses, OhioHealth Stays Dark",
     "hero_subtitle": "The Clinic averages 53% across 19 hospitals. OhioHealth\u2019s 16 facilities remain at 0%.",
-    "hospital_count": 69,
+    "hospital_count": 67,
     "intro_text": "Ohio\u2019s transparency picture improved dramatically once Cleveland Clinic\u2019s ZIP-compressed files were properly parsed. The Clinic averages 53% (Substantial) across 19 hospitals with 19\u201346 payers. TriHealth in Cincinnati hits 76\u201379%. But OhioHealth \u2014 Columbus\u2019s dominant system \u2014 remains at 0%, and Kettering Health in Dayton scores 0.4\u20132.1%.",
     "findings": [
       "<strong>Cleveland Clinic</strong> averages 53% transparency across 19 Ohio hospitals with 19\u201346 payers and a uniform 35% cash discount. The flagship Main Campus scores 38.5% \u2014 lower than its community hospitals.",
@@ -156,7 +156,7 @@
   "SD": {
     "hero_title": "South Dakota: The Sanford-Avera Duopoly",
     "hero_subtitle": "Two systems cover the state. Both disclose. No gaps.",
-    "hospital_count": 27,
+    "hospital_count": 12,
     "intro_text": "South Dakota\u2019s hospital market is a duopoly: Sanford Health and Avera Health between them cover nearly every bed in the state. Both disclose consistently, producing a 76.8% median with zero None-tier hospitals.",
     "findings": [
       "<strong>Avera Health</strong> and <strong>Sanford Health</strong> together account for nearly all 27 profiled hospitals \u2014 a true duopoly market.",
