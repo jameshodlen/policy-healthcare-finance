@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>South Dakota Hospital Price Transparency — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states.html">All States</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>South Dakota: The Sanford-Avera Duopoly</h1>
+    <p class="subtitle">Two systems cover the state. Both disclose. No gaps.</p>
+    <p class="dateline">27 hospitals analyzed · March 2026</p>
+  </section>
+
+  <main class="content">
+    <div id="state-metrics" class="metric-strip"></div>
+
+    <div class="content-narrow">
+      <p>South Dakota’s hospital market is a duopoly: Sanford Health and Avera Health between them cover nearly every bed in the state. Both disclose consistently, producing a 76.8% median with zero None-tier hospitals.</p>
+    </div>
+
+    <h2>Key Findings</h2>
+    <ol class="findings-list">
+      <li><strong>Avera Health</strong> and <strong>Sanford Health</strong> together account for nearly all 27 profiled hospitals — a true duopoly market.</li>
+      <li><strong>Zero None-tier hospitals</strong> — South Dakota joins Nebraska as a state where every profiled hospital discloses some payer rates.</li>
+      <li><strong>Monument Health</strong> (Rapid City) contributes additional coverage in western South Dakota.</li>
+      <li><strong>76.8% median</strong> ranks third in the Midwest behind Nebraska (79.1%) and North Dakota (76.7%).</li>
+      <li>The duopoly structure makes South Dakota unusually transparent — two standardized systems cover the entire state.</li>
+      <li><strong>27 of 59 non-VA hospitals profiled</strong> — 46% discovery rate. Missing hospitals are likely small critical access facilities.</li>
+    </ol>
+
+    <h2>Hospital Transparency Scorecard</h2>
+
+    <div class="filter-bar">
+      <div>
+        <label for="filter-system">System</label>
+        <select id="filter-system"><option value="all">All Systems</option></select>
+      </div>
+      <div>
+        <label for="filter-tier">Tier</label>
+        <select id="filter-tier">
+          <option value="all">All Tiers</option>
+          <option value="Full">Full (≥80%)</option>
+          <option value="Substantial">Substantial (50–80%)</option>
+          <option value="Partial">Partial (20–50%)</option>
+          <option value="Minimal">Minimal (&lt;20%)</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="hospital-table-container"></div>
+
+    <div class="content-narrow" style="margin-top:2rem;">
+      <h3>About Transparency Tiers</h3>
+      <p>
+        <span class="tier-badge full">Full</span> ≥80% of items have payer-specific negotiated rates.
+        <span class="tier-badge substantial">Substantial</span> 50–80%.
+        <span class="tier-badge partial">Partial</span> 20–50%.
+        <span class="tier-badge minimal">Minimal</span> &lt;20%.
+        Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
+    <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
+  </footer>
+
+  <script src="/main.js"></script>
+  <script>loadStatePage("SD");</script>
+</body>
+</html>

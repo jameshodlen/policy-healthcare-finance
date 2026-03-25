@@ -54,5 +54,117 @@
       "<strong>MercyOne's cash discount variance</strong> spans 9\u201336% across facilities \u2014 compared to UnityPoint's uniform 20%. MercyOne appears to set pricing at the facility level; UnityPoint centralizes it.",
       "<strong>14 hospitals scored 0%</strong> \u2014 mostly non-Iowa facilities from national cms-hpt.txt files (Gundersen, Trinity, Genesis) that were incorrectly attributed to Iowa in discovery."
     ]
+  },
+  "IN": {
+    "hero_title": "Indiana: Deaconess Discloses, Parkview Goes Dark",
+    "hero_subtitle": "Only 19 of 148 hospitals discoverable \u2014 a state-wide transparency gap.",
+    "hospital_count": 19,
+    "intro_text": "Indiana\u2019s chargemaster landscape is sparse. Parkview Health \u2014 Fort Wayne\u2019s dominant system \u2014 publishes files our profiler cannot parse (0% across 10 facilities). Deaconess in Evansville is the bright spot, clustering at 54\u201374% with generous cash discounts of 41\u201370%.",
+    "findings": [
+      "<strong>Parkview Health</strong> (10 facilities) returns 0% transparency across the board \u2014 files exist but the format blocks automated profiling.",
+      "<strong>Deaconess</strong> is Indiana\u2019s most transparent system: 6 facilities at 54\u201374% (Substantial tier) with 7\u201320 payers and cash discounts of 41\u201370%.",
+      "<strong>Stones Crossing Imaging Center</strong> hits 98.9% with 51 payers \u2014 the only Full-tier facility in the state.",
+      "<strong>129 of 148 hospitals</strong> in the CMS inventory had no discoverable cms-hpt.txt file \u2014 the largest discovery gap in the Midwest.",
+      "Indiana lacks the mega-system transparency leaders seen in neighboring states (ThedaCare in WI, MercyOne in IA, McLaren in MI).",
+      "<strong>Mercy Hospital Columbus</strong> discloses 162 payers but only 25.7% transparency \u2014 many payers listed, few rates actually disclosed."
+    ]
+  },
+  "KS": {
+    "hero_title": "Kansas: KU Health Leads, AdventHealth Pollutes the Data",
+    "hero_subtitle": "7 Full-tier hospitals buried under 40 misattributed national entries.",
+    "hospital_count": 48,
+    "intro_text": "Kansas has a data quality problem. AdventHealth\u2019s national cms-hpt.txt dumps 38 non-Kansas facilities into our discovery pipeline \u2014 all scoring 0%. Strip those out and Kansas looks better: KU Health System achieves 100% across 5 facilities, and Stormont Vail in Topeka hits 80\u201386%.",
+    "findings": [
+      "<strong>University of Kansas Health System</strong> achieves 100% transparency at all 5 facilities with 12\u201370 payers and cash discounts of 76\u201380%.",
+      "<strong>Stormont Vail</strong> (Topeka) hits 80\u201386% at 2 facilities with 8 payers \u2014 solid regional performer.",
+      "<strong>Hays Medical Center</strong> achieves 100% with 194 payers \u2014 one of the highest payer counts in the Midwest.",
+      "<strong>38 AdventHealth entries score 0%</strong> \u2014 these are Florida, Texas, and Colorado facilities pulled from AdventHealth\u2019s national txt file, not Kansas hospitals.",
+      "Only 2 actual Kansas-specific health systems discovered (KU, Stormont Vail) \u2014 the rest of the state\u2019s 136 hospitals lack discoverable chargemasters.",
+      "<strong>Mercy Hospital Pittsburg</strong> discloses only 1.4% of payer rates despite listing 22 payers \u2014 minimal compliance."
+    ]
+  },
+  "MI": {
+    "hero_title": "Michigan: McLaren\u2019s Perfect Score, Corewell\u2019s Black Box",
+    "hero_subtitle": "12 McLaren hospitals at 100%. 19 Corewell hospitals at 0%. Same state, opposite choices.",
+    "hospital_count": 56,
+    "intro_text": "Michigan is the Midwest\u2019s starkest transparency divide. McLaren Health Care achieves 100% at all 12 facilities with 22\u201338 payers and a uniform 50% cash discount. Corewell Health \u2014 Michigan\u2019s largest system (formerly Beaumont/Spectrum) \u2014 registers 0% across all 19 facilities despite listing 14\u201321 payers in their files.",
+    "findings": [
+      "<strong>McLaren Health Care</strong> achieves 100% transparency at all 12 facilities \u2014 22\u201338 payers, uniform 50% cash discount. The gold standard for Michigan.",
+      "<strong>Corewell Health</strong> (19 facilities, Michigan\u2019s largest) scores 0% everywhere despite payer names appearing in files. Structural non-disclosure from the state\u2019s dominant system.",
+      "<strong>Henry Ford</strong> spans the full range: Providence Novi/Southfield at 91% (Full), flagship Detroit at 44% (Partial), Kingswood behavioral at 0.1%. Wide intra-system variance.",
+      "<strong>Karmanos Cancer Institute</strong> hits 100% with 32 payers \u2014 full compliance from a specialty cancer center.",
+      "<strong>Munson Healthcare</strong> (8 facilities in northern MI) clusters at 45\u201385% with only 2\u20133 payers each \u2014 good rates but very few payers disclosed.",
+      "<strong>Corewell\u2019s 0% is the biggest finding</strong> \u2014 a 19-hospital system serving metro Detroit and Grand Rapids that technically publishes files but discloses no actual negotiated rates."
+    ]
+  },
+  "MO": {
+    "hero_title": "Missouri: BJC Shines, Mercy Hides, SSM Blocks",
+    "hero_subtitle": "Three systems, three disclosure philosophies \u2014 and a polarized landscape.",
+    "hospital_count": 84,
+    "intro_text": "Missouri\u2019s 15.6% median masks a deeply polarized landscape. BJC Healthcare and CoxHealth achieve 100% at their flagship facilities. Mercy \u2014 Missouri\u2019s largest Catholic system \u2014 shows 99% at small Stoddard County clinics but 1\u201316% at its major hospitals. SSM Health returns 0% across all entries.",
+    "findings": [
+      "<strong>BJC Healthcare</strong> (Barnes-Jewish, St. Louis Children\u2019s) achieves 92\u2013100% across 13 facilities \u2014 comprehensive disclosure from Missouri\u2019s premier academic system.",
+      "<strong>CoxHealth</strong> hits 100% at all 4 Springfield-area facilities with 254\u2013304 payers \u2014 extraordinary payer breadth.",
+      "<strong>Mercy\u2019s paradox</strong>: small rural clinics (Stoddard, Sikeston) disclose 98\u201399%, but major hospitals score Minimal (1\u201316%) or failed to download. Size correlates inversely with transparency.",
+      "<strong>SSM Health</strong> returns 0% at all 21 entries \u2014 consistent with TLS/format blocking seen in Wisconsin and Illinois.",
+      "<strong>Mercy rehab hospitals</strong> cluster at 5\u201314% with 0% cash discount \u2014 the lowest cash pricing transparency in the state.",
+      "<strong>34 Full-tier hospitals</strong> is misleading \u2014 many are small Mercy/CHI clinics. The major trauma centers are where the gaps are."
+    ]
+  },
+  "ND": {
+    "hero_title": "North Dakota: Sanford\u2019s Solid Middle, CHI\u2019s Full Marks",
+    "hero_subtitle": "No hospitals below 20% \u2014 the Midwest\u2019s most consistent disclosure state.",
+    "hospital_count": 40,
+    "intro_text": "North Dakota is a transparency success story. Sanford Health \u2014 the state\u2019s dominant system \u2014 clusters at 57\u201383% (Substantial tier) across its network. CHI Health facilities achieve 100%. Only 3 of 40 profiled hospitals scored 0%, and those appear to be non-ND entries from national txt files.",
+    "findings": [
+      "<strong>Sanford Health</strong> is consistently Substantial: 57\u201383% transparency, 4\u201317 payers, uniform 20% cash discount. Not Full tier, but reliably above 50%.",
+      "<strong>CHI Health</strong> facilities achieve 100% \u2014 CommonSpirit\u2019s strongest state performance in the Midwest.",
+      "<strong>No Minimal-tier hospitals</strong> \u2014 North Dakota is one of only 3 Midwest states (with NE, SD) where every real hospital scores above 20%.",
+      "<strong>40 of 46 hospitals profiled</strong> \u2014 96% discovery rate, the highest in the Midwest.",
+      "<strong>Sanford Bemidji</strong> and <strong>Sanford USD Medical Center</strong> score lower (57\u201374%) with only 4 payers \u2014 larger facilities disclose fewer payer contracts.",
+      "North Dakota\u2019s success reflects Sanford Health\u2019s standardized compliance approach across facilities."
+    ]
+  },
+  "NE": {
+    "hero_title": "Nebraska: The Midwest\u2019s Quiet Transparency Leader",
+    "hero_subtitle": "79.1% median \u2014 the highest in the Midwest, with zero hospitals at 0%.",
+    "hospital_count": 19,
+    "intro_text": "Nebraska has the highest median transparency in the Midwest at 79.1%, and every profiled hospital discloses at least some payer rates. CHI Health anchors the state with consistent performance, and Nebraska Medicine (UNMC) contributes strong academic disclosure.",
+    "findings": [
+      "<strong>Every profiled hospital discloses payer rates</strong> \u2014 Nebraska is the only Midwest state with zero None-tier hospitals.",
+      "<strong>CHI Health</strong> achieves consistent Full/Substantial performance across its Nebraska network.",
+      "<strong>Nebraska Medicine</strong> (University of Nebraska Medical Center) provides strong academic hospital disclosure.",
+      "<strong>79.1% median</strong> exceeds every other Midwest state including North Dakota (76.7%) and South Dakota (76.8%).",
+      "Only 19 of 92 non-VA hospitals profiled \u2014 good scores but limited coverage.",
+      "<strong>Mercy</strong> presence in Nebraska scores Minimal \u2014 consistent with Mercy\u2019s pattern across MO and KS."
+    ]
+  },
+  "OH": {
+    "hero_title": "Ohio: 14 Full-Tier Hospitals, But Most Systems Are Missing",
+    "hero_subtitle": "Cleveland Clinic, OhioHealth, UC Health absent \u2014 Ohio\u2019s biggest systems are invisible.",
+    "hospital_count": 43,
+    "intro_text": "Ohio\u2019s 0.2% median is the lowest in the Midwest \u2014 driven by massive discovery gaps. OhioHealth, Cleveland Clinic, and UC Health are absent from our pipeline entirely. ProMedica and Aultman provide the state\u2019s best data, while AdventHealth entries again pollute with non-Ohio facilities.",
+    "findings": [
+      "<strong>OhioHealth, Cleveland Clinic, UC Health, TriHealth</strong> \u2014 Ohio\u2019s largest systems \u2014 are absent from our discovery pipeline entirely.",
+      "<strong>ProMedica</strong> provides the strongest Ohio disclosure with consistent Full-tier performance across northwest Ohio.",
+      "<strong>Aultman</strong> (Canton) achieves solid transparency \u2014 one of the few Ohio systems with parseable chargemasters.",
+      "<strong>20 None-tier entries</strong> \u2014 many are AdventHealth and Mercy facilities misattributed from national txt files.",
+      "Only 43 of 192 non-VA hospitals profiled \u2014 22% discovery rate, the worst in the Midwest.",
+      "<strong>Ohio needs targeted harvesting</strong> for Cleveland Clinic, OhioHealth, Kettering Health, and Premier Health."
+    ]
+  },
+  "SD": {
+    "hero_title": "South Dakota: The Sanford-Avera Duopoly",
+    "hero_subtitle": "Two systems cover the state. Both disclose. No gaps.",
+    "hospital_count": 27,
+    "intro_text": "South Dakota\u2019s hospital market is a duopoly: Sanford Health and Avera Health between them cover nearly every bed in the state. Both disclose consistently, producing a 76.8% median with zero None-tier hospitals.",
+    "findings": [
+      "<strong>Avera Health</strong> and <strong>Sanford Health</strong> together account for nearly all 27 profiled hospitals \u2014 a true duopoly market.",
+      "<strong>Zero None-tier hospitals</strong> \u2014 South Dakota joins Nebraska as a state where every profiled hospital discloses some payer rates.",
+      "<strong>Monument Health</strong> (Rapid City) contributes additional coverage in western South Dakota.",
+      "<strong>76.8% median</strong> ranks third in the Midwest behind Nebraska (79.1%) and North Dakota (76.7%).",
+      "The duopoly structure makes South Dakota unusually transparent \u2014 two standardized systems cover the entire state.",
+      "<strong>27 of 59 non-VA hospitals profiled</strong> \u2014 46% discovery rate. Missing hospitals are likely small critical access facilities."
+    ]
   }
 }

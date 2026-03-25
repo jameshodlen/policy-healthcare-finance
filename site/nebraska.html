@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nebraska Hospital Price Transparency — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states.html">All States</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Nebraska: The Midwest’s Quiet Transparency Leader</h1>
+    <p class="subtitle">79.1% median — the highest in the Midwest, with zero hospitals at 0%.</p>
+    <p class="dateline">19 hospitals analyzed · March 2026</p>
+  </section>
+
+  <main class="content">
+    <div id="state-metrics" class="metric-strip"></div>
+
+    <div class="content-narrow">
+      <p>Nebraska has the highest median transparency in the Midwest at 79.1%, and every profiled hospital discloses at least some payer rates. CHI Health anchors the state with consistent performance, and Nebraska Medicine (UNMC) contributes strong academic disclosure.</p>
+    </div>
+
+    <h2>Key Findings</h2>
+    <ol class="findings-list">
+      <li><strong>Every profiled hospital discloses payer rates</strong> — Nebraska is the only Midwest state with zero None-tier hospitals.</li>
+      <li><strong>CHI Health</strong> achieves consistent Full/Substantial performance across its Nebraska network.</li>
+      <li><strong>Nebraska Medicine</strong> (University of Nebraska Medical Center) provides strong academic hospital disclosure.</li>
+      <li><strong>79.1% median</strong> exceeds every other Midwest state including North Dakota (76.7%) and South Dakota (76.8%).</li>
+      <li>Only 19 of 92 non-VA hospitals profiled — good scores but limited coverage.</li>
+      <li><strong>Mercy</strong> presence in Nebraska scores Minimal — consistent with Mercy’s pattern across MO and KS.</li>
+    </ol>
+
+    <h2>Hospital Transparency Scorecard</h2>
+
+    <div class="filter-bar">
+      <div>
+        <label for="filter-system">System</label>
+        <select id="filter-system"><option value="all">All Systems</option></select>
+      </div>
+      <div>
+        <label for="filter-tier">Tier</label>
+        <select id="filter-tier">
+          <option value="all">All Tiers</option>
+          <option value="Full">Full (≥80%)</option>
+          <option value="Substantial">Substantial (50–80%)</option>
+          <option value="Partial">Partial (20–50%)</option>
+          <option value="Minimal">Minimal (&lt;20%)</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="hospital-table-container"></div>
+
+    <div class="content-narrow" style="margin-top:2rem;">
+      <h3>About Transparency Tiers</h3>
+      <p>
+        <span class="tier-badge full">Full</span> ≥80% of items have payer-specific negotiated rates.
+        <span class="tier-badge substantial">Substantial</span> 50–80%.
+        <span class="tier-badge partial">Partial</span> 20–50%.
+        <span class="tier-badge minimal">Minimal</span> &lt;20%.
+        Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
+    <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
+  </footer>
+
+  <script src="/main.js"></script>
+  <script>loadStatePage("NE");</script>
+</body>
+</html>

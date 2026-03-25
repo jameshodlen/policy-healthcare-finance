@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indiana Hospital Price Transparency — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states.html">All States</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Indiana: Deaconess Discloses, Parkview Goes Dark</h1>
+    <p class="subtitle">Only 19 of 148 hospitals discoverable — a state-wide transparency gap.</p>
+    <p class="dateline">19 hospitals analyzed · March 2026</p>
+  </section>
+
+  <main class="content">
+    <div id="state-metrics" class="metric-strip"></div>
+
+    <div class="content-narrow">
+      <p>Indiana’s chargemaster landscape is sparse. Parkview Health — Fort Wayne’s dominant system — publishes files our profiler cannot parse (0% across 10 facilities). Deaconess in Evansville is the bright spot, clustering at 54–74% with generous cash discounts of 41–70%.</p>
+    </div>
+
+    <h2>Key Findings</h2>
+    <ol class="findings-list">
+      <li><strong>Parkview Health</strong> (10 facilities) returns 0% transparency across the board — files exist but the format blocks automated profiling.</li>
+      <li><strong>Deaconess</strong> is Indiana’s most transparent system: 6 facilities at 54–74% (Substantial tier) with 7–20 payers and cash discounts of 41–70%.</li>
+      <li><strong>Stones Crossing Imaging Center</strong> hits 98.9% with 51 payers — the only Full-tier facility in the state.</li>
+      <li><strong>129 of 148 hospitals</strong> in the CMS inventory had no discoverable cms-hpt.txt file — the largest discovery gap in the Midwest.</li>
+      <li>Indiana lacks the mega-system transparency leaders seen in neighboring states (ThedaCare in WI, MercyOne in IA, McLaren in MI).</li>
+      <li><strong>Mercy Hospital Columbus</strong> discloses 162 payers but only 25.7% transparency — many payers listed, few rates actually disclosed.</li>
+    </ol>
+
+    <h2>Hospital Transparency Scorecard</h2>
+
+    <div class="filter-bar">
+      <div>
+        <label for="filter-system">System</label>
+        <select id="filter-system"><option value="all">All Systems</option></select>
+      </div>
+      <div>
+        <label for="filter-tier">Tier</label>
+        <select id="filter-tier">
+          <option value="all">All Tiers</option>
+          <option value="Full">Full (≥80%)</option>
+          <option value="Substantial">Substantial (50–80%)</option>
+          <option value="Partial">Partial (20–50%)</option>
+          <option value="Minimal">Minimal (&lt;20%)</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="hospital-table-container"></div>
+
+    <div class="content-narrow" style="margin-top:2rem;">
+      <h3>About Transparency Tiers</h3>
+      <p>
+        <span class="tier-badge full">Full</span> ≥80% of items have payer-specific negotiated rates.
+        <span class="tier-badge substantial">Substantial</span> 50–80%.
+        <span class="tier-badge partial">Partial</span> 20–50%.
+        <span class="tier-badge minimal">Minimal</span> &lt;20%.
+        Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
+    <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
+  </footer>
+
+  <script src="/main.js"></script>
+  <script>loadStatePage("IN");</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michigan Hospital Price Transparency — Healthcare Finance Watch</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-name">Civil Ledger Lab</span>
+        <span class="brand-domain">Healthcare Finance Watch</span>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Overview</a>
+        <a href="/states.html">All States</a>
+        <a href="/methodology.html">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Michigan: McLaren’s Perfect Score, Corewell’s Black Box</h1>
+    <p class="subtitle">12 McLaren hospitals at 100%. 19 Corewell hospitals at 0%. Same state, opposite choices.</p>
+    <p class="dateline">56 hospitals analyzed · March 2026</p>
+  </section>
+
+  <main class="content">
+    <div id="state-metrics" class="metric-strip"></div>
+
+    <div class="content-narrow">
+      <p>Michigan is the Midwest’s starkest transparency divide. McLaren Health Care achieves 100% at all 12 facilities with 22–38 payers and a uniform 50% cash discount. Corewell Health — Michigan’s largest system (formerly Beaumont/Spectrum) — registers 0% across all 19 facilities despite listing 14–21 payers in their files.</p>
+    </div>
+
+    <h2>Key Findings</h2>
+    <ol class="findings-list">
+      <li><strong>McLaren Health Care</strong> achieves 100% transparency at all 12 facilities — 22–38 payers, uniform 50% cash discount. The gold standard for Michigan.</li>
+      <li><strong>Corewell Health</strong> (19 facilities, Michigan’s largest) scores 0% everywhere despite payer names appearing in files. Structural non-disclosure from the state’s dominant system.</li>
+      <li><strong>Henry Ford</strong> spans the full range: Providence Novi/Southfield at 91% (Full), flagship Detroit at 44% (Partial), Kingswood behavioral at 0.1%. Wide intra-system variance.</li>
+      <li><strong>Karmanos Cancer Institute</strong> hits 100% with 32 payers — full compliance from a specialty cancer center.</li>
+      <li><strong>Munson Healthcare</strong> (8 facilities in northern MI) clusters at 45–85% with only 2–3 payers each — good rates but very few payers disclosed.</li>
+      <li><strong>Corewell’s 0% is the biggest finding</strong> — a 19-hospital system serving metro Detroit and Grand Rapids that technically publishes files but discloses no actual negotiated rates.</li>
+    </ol>
+
+    <h2>Hospital Transparency Scorecard</h2>
+
+    <div class="filter-bar">
+      <div>
+        <label for="filter-system">System</label>
+        <select id="filter-system"><option value="all">All Systems</option></select>
+      </div>
+      <div>
+        <label for="filter-tier">Tier</label>
+        <select id="filter-tier">
+          <option value="all">All Tiers</option>
+          <option value="Full">Full (≥80%)</option>
+          <option value="Substantial">Substantial (50–80%)</option>
+          <option value="Partial">Partial (20–50%)</option>
+          <option value="Minimal">Minimal (&lt;20%)</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="hospital-table-container"></div>
+
+    <div class="content-narrow" style="margin-top:2rem;">
+      <h3>About Transparency Tiers</h3>
+      <p>
+        <span class="tier-badge full">Full</span> ≥80% of items have payer-specific negotiated rates.
+        <span class="tier-badge substantial">Substantial</span> 50–80%.
+        <span class="tier-badge partial">Partial</span> 20–50%.
+        <span class="tier-badge minimal">Minimal</span> &lt;20%.
+        Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Civil Ledger Lab</div>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
+    <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
+  </footer>
+
+  <script src="/main.js"></script>
+  <script>loadStatePage("MI");</script>
+</body>
+</html>
