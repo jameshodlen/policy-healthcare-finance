@@ -15,9 +15,7 @@
       </div>
       <nav class="site-nav">
         <a href="/" class="active">Overview</a>
-        <a href="/wisconsin.html">Wisconsin</a>
-        <a href="/minnesota.html">Minnesota</a>
-        <a href="/illinois.html">Illinois</a>
+        <a href="/states.html">All States</a>
         <a href="/methodology.html">Methodology</a>
       </nav>
     </div>
@@ -25,64 +23,22 @@
 
   <section class="hero">
     <h1>Who Discloses What Hospitals Actually Charge</h1>
-    <p class="subtitle">A three-state analysis of hospital price transparency compliance — tracing payer-specific rates across 99 hospitals in Wisconsin, Minnesota, and Illinois.</p>
-    <p class="dateline">Data harvested March 24, 2026 · Civil Ledger Lab</p>
+    <p class="subtitle">A nationwide analysis of hospital price transparency compliance — tracing payer-specific rates across every state.</p>
+    <p class="dateline">Data harvested March 2026 · Civil Ledger Lab</p>
   </section>
 
   <main class="content">
 
-    <div class="metric-strip">
-      <div class="metric-item">
-        <div class="metric-value">99</div>
-        <div class="metric-label">Hospitals Analyzed</div>
-      </div>
-      <div class="metric-item">
-        <div class="metric-value">~20</div>
-        <div class="metric-label">Health Systems</div>
-      </div>
-      <div class="metric-item">
-        <div class="metric-value">3</div>
-        <div class="metric-label">States</div>
-      </div>
-      <div class="metric-item">
-        <div class="metric-value">2.9%–100%</div>
-        <div class="metric-label">Transparency Range</div>
-      </div>
-    </div>
+    <div id="national-metrics" class="metric-strip"></div>
 
     <div class="content-narrow">
       <p>Federal law requires every hospital to publish a machine-readable file listing what it charges every insurer for every service. Most hospitals comply. Some comply fully — disclosing negotiated rates for dozens of payers across thousands of procedures. Others publish files that technically exist but contain almost nothing.</p>
       <p>This platform profiles every chargemaster file we can access, scoring each hospital on what it actually discloses. The data is public. The contradictions are structural.</p>
     </div>
 
-    <h2>Three-State Scorecard</h2>
+    <h2>State-by-State Scorecard</h2>
 
-    <div class="state-cards">
-      <a class="state-card" href="/wisconsin.html" id="card-WI">
-        <div class="state-label">State Profile</div>
-        <div class="state-name">Wisconsin</div>
-        <div class="median-score">—</div>
-        <div class="median-label">Loading...</div>
-        <div class="tier-bars"></div>
-        <div class="finding"></div>
-      </a>
-      <a class="state-card" href="/minnesota.html" id="card-MN">
-        <div class="state-label">State Profile</div>
-        <div class="state-name">Minnesota</div>
-        <div class="median-score">—</div>
-        <div class="median-label">Loading...</div>
-        <div class="tier-bars"></div>
-        <div class="finding"></div>
-      </a>
-      <a class="state-card" href="/illinois.html" id="card-IL">
-        <div class="state-label">State Profile</div>
-        <div class="state-name">Illinois</div>
-        <div class="median-score">—</div>
-        <div class="median-label">Loading...</div>
-        <div class="tier-bars"></div>
-        <div class="finding"></div>
-      </a>
-    </div>
+    <div id="state-card-grid" class="state-grid"></div>
 
     <h2>Anchor Findings</h2>
 
@@ -95,47 +51,6 @@
       <li>At <strong>Meriter Hospital</strong> in Madison, the same knee replacement (DRG 470) costs Anthem PPO $46,834 but Medicare Advantage pays $14,825 — a <strong>3.2x spread</strong> within one building.</li>
       <li><strong>Froedtert Hospital</strong> — Milwaukee's flagship Level I Trauma Center — discloses rates for only 6 payers. A 25-bed critical access hospital in rural Boscobel discloses more.</li>
     </ol>
-
-    <h2>Cross-State Comparison</h2>
-
-    <div class="data-table-wrapper">
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Metric</th>
-            <th>Wisconsin</th>
-            <th>Minnesota</th>
-            <th>Illinois</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Hospitals analyzed</td><td>31</td><td>31</td><td>37</td>
-          </tr>
-          <tr>
-            <td>Median transparency</td><td>72.4%</td><td>74.8%</td><td>64.1%</td>
-          </tr>
-          <tr>
-            <td>Full tier (≥80%)</td><td>20 (65%)</td><td>12 (39%)</td><td>12 (32%)</td>
-          </tr>
-          <tr>
-            <td>Minimal tier (&lt;20%)</td><td>0</td><td>4 (13%)</td><td>3 (8%)</td>
-          </tr>
-          <tr>
-            <td>Best system</td>
-            <td>ThedaCare (100%)</td>
-            <td>Allina (99.9%)</td>
-            <td>Rush (100%)</td>
-          </tr>
-          <tr>
-            <td>Worst system</td>
-            <td>Ascension (31.8%)</td>
-            <td>HealthPartners (9.1%)</td>
-            <td>UChicago (2.9%)</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
 
     <div class="content-narrow" style="margin-top:2rem;">
       <h2>What This Platform Tracks</h2>

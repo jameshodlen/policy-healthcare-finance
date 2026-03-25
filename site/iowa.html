@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minnesota Hospital Price Transparency — Healthcare Finance Watch</title>
+  <title>Iowa Hospital Price Transparency — Healthcare Finance Watch</title>
   <link rel="stylesheet" href="/main.css">
 </head>
 <body>
@@ -20,26 +20,32 @@
       </nav>
     </div>
   </header>
+
   <section class="hero">
-    <h1>Minnesota: The HealthPartners Contradiction</h1>
-    <p class="subtitle">A consumer-governed nonprofit that hides what insurance actually pays.</p>
+    <h1>Iowa: MercyOne’s 755 Payers Set the Midwest Standard</h1>
+    <p class="subtitle">94.4% median — MercyOne and UnityPoint cover the state with very different approaches.</p>
     <p class="dateline">31 hospitals analyzed · March 2026</p>
   </section>
+
   <main class="content">
     <div id="state-metrics" class="metric-strip"></div>
+
     <div class="content-narrow">
-      <p>HealthPartners — both an insurer and a hospital system — scores 6.9% at Regions Hospital. They give patients generous cash discounts (53–75% off gross) while hiding what insured patients' carriers actually negotiate.</p>
+      <p>Iowa’s 94.4% median transparency ranks among the highest in the Midwest once non-Iowa entries are cleaned from the data. MercyOne achieves 94–99% across 13 facilities with an extraordinary 755+ payer contracts each. UnityPoint clusters at 51–75% with a uniform 20% cash discount.</p>
     </div>
+
     <h2>Key Findings</h2>
     <ol class="findings-list">
-      <li><strong>HealthPartners Regions Hospital</strong> — Level I Trauma, 454 beds, consumer-governed nonprofit — discloses payer rates on 6.9% of rows. The lowest non-zero score in the three-state dataset.</li>
-      <li>All four HealthPartners facilities score below 12% — the only system in either state <strong>entirely below 20%</strong>. Yet their cash discounts are the highest in Minnesota (53–75%).</li>
-      <li><strong>Mayo Clinic Rochester</strong> discloses rates for 1,102 payer/plan combinations — 10x more than any other hospital in any state. The richest single chargemaster file in the dataset.</li>
-      <li><strong>Allina Health</strong> achieves 99.8–100% across all 5 analyzed facilities — proving full disclosure is operationally feasible for a large multi-hospital system.</li>
-      <li><strong>Essentia Brainerd</strong> (St. Joseph's Medical Center) scores 99.6% with 39 payers — one of the most transparent hospitals in the dataset and the strongest local data anchor.</li>
-      <li><strong>M Health Fairview</strong> shows good percentage transparency (70–90%) but only 2–4 payers per facility — the structure has rates but for very few contracts.</li>
+      <li><strong>MercyOne</strong> is Iowa's transparency leader: 13 facilities at 94–99.5% transparency, each disclosing rates for 752–760 payers. No other Midwest system comes close to this payer breadth.</li>
+      <li><strong>UnityPoint Health</strong> (14 facilities) clusters in the Substantial tier at 51–75% — all on v3.0.0 schema with a uniform 20% cash discount. Centralized pricing, incomplete disclosure.</li>
+      <li><strong>University of Iowa Health Care</strong> hits 100% across both campuses — the state's flagship academic center complies fully.</li>
+      <li><strong>Iowa Specialty Hospital</strong> (Clarion + Belmond) both achieve 100% with 12–15 payers and a 40% cash discount — proof that small hospitals can fully comply.</li>
+      <li><strong>MercyOne's cash discount variance</strong> spans 9–36% across facilities — compared to UnityPoint's uniform 20%. MercyOne appears to set pricing at the facility level; UnityPoint centralizes it.</li>
+      <li><strong>14 hospitals scored 0%</strong> — mostly non-Iowa facilities from national cms-hpt.txt files (Gundersen, Trinity, Genesis) that were incorrectly attributed to Iowa in discovery.</li>
     </ol>
+
     <h2>Hospital Transparency Scorecard</h2>
+
     <div class="filter-bar">
       <div>
         <label for="filter-system">System</label>
@@ -56,7 +62,9 @@
         </select>
       </div>
     </div>
+
     <div id="hospital-table-container"></div>
+
     <div class="content-narrow" style="margin-top:2rem;">
       <h3>About Transparency Tiers</h3>
       <p>
@@ -67,13 +75,16 @@
         Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
       </p>
     </div>
+
   </main>
+
   <footer class="site-footer">
     <div class="footer-brand">Civil Ledger Lab</div>
-    <p>Healthcare Finance Watch · <a href="/">Three-State Overview</a></p>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
     <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
   </footer>
+
   <script src="/main.js"></script>
-  <script>loadStatePage("MN");</script>
+  <script>loadStatePage("IA");</script>
 </body>
 </html>

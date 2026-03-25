@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minnesota Hospital Price Transparency — Healthcare Finance Watch</title>
+  <title>Michigan Hospital Price Transparency — Healthcare Finance Watch</title>
   <link rel="stylesheet" href="/main.css">
 </head>
 <body>
@@ -20,26 +20,32 @@
       </nav>
     </div>
   </header>
+
   <section class="hero">
-    <h1>Minnesota: The HealthPartners Contradiction</h1>
-    <p class="subtitle">A consumer-governed nonprofit that hides what insurance actually pays.</p>
-    <p class="dateline">31 hospitals analyzed · March 2026</p>
+    <h1>Michigan: McLaren’s Perfect Score, Corewell’s Black Box</h1>
+    <p class="subtitle">12 McLaren hospitals at 100%. 19 Corewell hospitals at 0%. Same state, opposite choices.</p>
+    <p class="dateline">55 hospitals analyzed · March 2026</p>
   </section>
+
   <main class="content">
     <div id="state-metrics" class="metric-strip"></div>
+
     <div class="content-narrow">
-      <p>HealthPartners — both an insurer and a hospital system — scores 6.9% at Regions Hospital. They give patients generous cash discounts (53–75% off gross) while hiding what insured patients' carriers actually negotiate.</p>
+      <p>Michigan is the Midwest’s starkest transparency divide. McLaren Health Care achieves 100% at all 12 facilities with 22–38 payers and a uniform 50% cash discount. Corewell Health — Michigan’s largest system (formerly Beaumont/Spectrum) — registers 0% across all 19 facilities despite listing 14–21 payers in their files.</p>
     </div>
+
     <h2>Key Findings</h2>
     <ol class="findings-list">
-      <li><strong>HealthPartners Regions Hospital</strong> — Level I Trauma, 454 beds, consumer-governed nonprofit — discloses payer rates on 6.9% of rows. The lowest non-zero score in the three-state dataset.</li>
-      <li>All four HealthPartners facilities score below 12% — the only system in either state <strong>entirely below 20%</strong>. Yet their cash discounts are the highest in Minnesota (53–75%).</li>
-      <li><strong>Mayo Clinic Rochester</strong> discloses rates for 1,102 payer/plan combinations — 10x more than any other hospital in any state. The richest single chargemaster file in the dataset.</li>
-      <li><strong>Allina Health</strong> achieves 99.8–100% across all 5 analyzed facilities — proving full disclosure is operationally feasible for a large multi-hospital system.</li>
-      <li><strong>Essentia Brainerd</strong> (St. Joseph's Medical Center) scores 99.6% with 39 payers — one of the most transparent hospitals in the dataset and the strongest local data anchor.</li>
-      <li><strong>M Health Fairview</strong> shows good percentage transparency (70–90%) but only 2–4 payers per facility — the structure has rates but for very few contracts.</li>
+      <li><strong>McLaren Health Care</strong> achieves 100% transparency at all 12 facilities — 22–38 payers, uniform 50% cash discount. The gold standard for Michigan.</li>
+      <li><strong>Corewell Health</strong> (19 facilities, Michigan’s largest) scores 0% everywhere despite payer names appearing in files. Structural non-disclosure from the state’s dominant system.</li>
+      <li><strong>Henry Ford</strong> spans the full range: Providence Novi/Southfield at 91% (Full), flagship Detroit at 44% (Partial), Kingswood behavioral at 0.1%. Wide intra-system variance.</li>
+      <li><strong>Karmanos Cancer Institute</strong> hits 100% with 32 payers — full compliance from a specialty cancer center.</li>
+      <li><strong>Munson Healthcare</strong> (8 facilities in northern MI) clusters at 45–85% with only 2–3 payers each — good rates but very few payers disclosed.</li>
+      <li><strong>Corewell’s 0% is the biggest finding</strong> — a 19-hospital system serving metro Detroit and Grand Rapids that technically publishes files but discloses no actual negotiated rates.</li>
     </ol>
+
     <h2>Hospital Transparency Scorecard</h2>
+
     <div class="filter-bar">
       <div>
         <label for="filter-system">System</label>
@@ -56,7 +62,9 @@
         </select>
       </div>
     </div>
+
     <div id="hospital-table-container"></div>
+
     <div class="content-narrow" style="margin-top:2rem;">
       <h3>About Transparency Tiers</h3>
       <p>
@@ -67,13 +75,16 @@
         Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
       </p>
     </div>
+
   </main>
+
   <footer class="site-footer">
     <div class="footer-brand">Civil Ledger Lab</div>
-    <p>Healthcare Finance Watch · <a href="/">Three-State Overview</a></p>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
     <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
   </footer>
+
   <script src="/main.js"></script>
-  <script>loadStatePage("MN");</script>
+  <script>loadStatePage("MI");</script>
 </body>
 </html>

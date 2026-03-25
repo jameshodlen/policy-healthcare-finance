@@ -28,3 +28,48 @@
   from = "/illinois"
   to = "/illinois.html"
   status = 301
+
+[[redirects]]
+  from = "/iowa"
+  to = "/iowa.html"
+  status = 301
+
+[[redirects]]
+  from = "/indiana"
+  to = "/indiana.html"
+  status = 301
+
+[[redirects]]
+  from = "/kansas"
+  to = "/kansas.html"
+  status = 301
+
+[[redirects]]
+  from = "/michigan"
+  to = "/michigan.html"
+  status = 301
+
+[[redirects]]
+  from = "/missouri"
+  to = "/missouri.html"
+  status = 301
+
+[[redirects]]
+  from = "/north-dakota"
+  to = "/north-dakota.html"
+  status = 301
+
+[[redirects]]
+  from = "/nebraska"
+  to = "/nebraska.html"
+  status = 301
+
+[[redirects]]
+  from = "/ohio"
+  to = "/ohio.html"
+  status = 301
+
+[[redirects]]
+  from = "/south-dakota"
+  to = "/south-dakota.html"
+  status = 301

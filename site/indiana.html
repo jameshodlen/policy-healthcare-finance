@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minnesota Hospital Price Transparency — Healthcare Finance Watch</title>
+  <title>Indiana Hospital Price Transparency — Healthcare Finance Watch</title>
   <link rel="stylesheet" href="/main.css">
 </head>
 <body>
@@ -20,26 +20,32 @@
       </nav>
     </div>
   </header>
+
   <section class="hero">
-    <h1>Minnesota: The HealthPartners Contradiction</h1>
-    <p class="subtitle">A consumer-governed nonprofit that hides what insurance actually pays.</p>
+    <h1>Indiana: IU Health’s Perfect Score Transforms the State</h1>
+    <p class="subtitle">16 IU Health facilities at 100%. Parkview’s 10 facilities at 1–4%. Two Indianas.</p>
     <p class="dateline">31 hospitals analyzed · March 2026</p>
   </section>
+
   <main class="content">
     <div id="state-metrics" class="metric-strip"></div>
+
     <div class="content-narrow">
-      <p>HealthPartners — both an insurer and a hospital system — scores 6.9% at Regions Hospital. They give patients generous cash discounts (53–75% off gross) while hiding what insured patients' carriers actually negotiate.</p>
+      <p>IU Health — Indiana’s largest system — achieves 100% transparency at all 16 facilities with 20–29 payers and cash discounts of 53–79%. Parkview Health in Fort Wayne scores 0.5–4.4% across 10 facilities — files are JSON disguised as CSV, and what parses contains almost no negotiated rates.</p>
     </div>
+
     <h2>Key Findings</h2>
     <ol class="findings-list">
-      <li><strong>HealthPartners Regions Hospital</strong> — Level I Trauma, 454 beds, consumer-governed nonprofit — discloses payer rates on 6.9% of rows. The lowest non-zero score in the three-state dataset.</li>
-      <li>All four HealthPartners facilities score below 12% — the only system in either state <strong>entirely below 20%</strong>. Yet their cash discounts are the highest in Minnesota (53–75%).</li>
-      <li><strong>Mayo Clinic Rochester</strong> discloses rates for 1,102 payer/plan combinations — 10x more than any other hospital in any state. The richest single chargemaster file in the dataset.</li>
-      <li><strong>Allina Health</strong> achieves 99.8–100% across all 5 analyzed facilities — proving full disclosure is operationally feasible for a large multi-hospital system.</li>
-      <li><strong>Essentia Brainerd</strong> (St. Joseph's Medical Center) scores 99.6% with 39 payers — one of the most transparent hospitals in the dataset and the strongest local data anchor.</li>
-      <li><strong>M Health Fairview</strong> shows good percentage transparency (70–90%) but only 2–4 payers per facility — the structure has rates but for very few contracts.</li>
+      <li><strong>IU Health</strong> achieves 100% transparency at all 16 facilities — 20–29 payers, 53–79% cash discounts. Indiana’s gold standard and one of the best system-wide performances in the Midwest.</li>
+      <li><strong>Parkview Health</strong> (10 Fort Wayne-area facilities) scores 0.5–4.4% — files are JSON served as CSV, and what parses contains almost no negotiated rates. Minimal compliance.</li>
+      <li><strong>Deaconess</strong> (Evansville) clusters at 54–74% (Substantial) with 7–20 payers and generous cash discounts of 41–70%.</li>
+      <li><strong>Riley Children’s Hospital</strong> at IU Health hits 100% with 29 payers — full compliance at Indiana’s flagship pediatric center.</li>
+      <li><strong>IU Health’s cash discounts</strong> (53–79%) are among the highest in the Midwest — a self-pay patient at IU Health Bedford saves 70% off gross charges.</li>
+      <li><strong>Community Health Network</strong> — despite 17 hospitals in CMS inventory — only Stones Crossing Imaging Center was discoverable (100%, 51 payers).</li>
     </ol>
+
     <h2>Hospital Transparency Scorecard</h2>
+
     <div class="filter-bar">
       <div>
         <label for="filter-system">System</label>
@@ -56,7 +62,9 @@
         </select>
       </div>
     </div>
+
     <div id="hospital-table-container"></div>
+
     <div class="content-narrow" style="margin-top:2rem;">
       <h3>About Transparency Tiers</h3>
       <p>
@@ -67,13 +75,16 @@
         Transparency percentage measures the share of data rows containing a payer-specific negotiated rate — not just gross charges or cash prices.
       </p>
     </div>
+
   </main>
+
   <footer class="site-footer">
     <div class="footer-brand">Civil Ledger Lab</div>
-    <p>Healthcare Finance Watch · <a href="/">Three-State Overview</a></p>
+    <p>Healthcare Finance Watch · <a href="/">National Overview</a> · <a href="/states.html">All States</a></p>
     <p style="margin-top:0.3rem;">Data: CMS Hospital Price Transparency MRFs · March 2026</p>
   </footer>
+
   <script src="/main.js"></script>
-  <script>loadStatePage("MN");</script>
+  <script>loadStatePage("IN");</script>
 </body>
 </html>
